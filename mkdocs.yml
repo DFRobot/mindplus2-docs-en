@@ -1,0 +1,279 @@
+# Project information
+site_name: "Mind+ Official Documentation"
+site_url: https://mindplus.cc
+site_author: Mind+ Team
+site_description: >-
+     Mind+ Official Tutorial-Mind+
+
+# Repository
+repo_name: Mind+/Docs
+repo_url: https://mindplus.cc
+edit_uri: ""
+
+# Copyright
+copyright: 'Copyright &copy; 2025 - 2029 Mind+ Team'
+
+# Configuration
+
+theme:
+  name: material
+  #custom_dir: overrides
+  nav_style: dark
+  features:
+    - navigation.path  # Enable breadcrumbs
+
+  # Default values, taken from mkdocs_theme.yml
+  language: zh
+  features:
+    - navigation.path
+    # - announce.dismiss
+    - content.code.annotate
+    - content.code.copy
+    # - content.code.select
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+    - navigation.top
+  
+  
+  palette:
+    - scheme: default
+      primary: orange
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: orange
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/images/favicon.ico
+
+  #icon:
+    #logo: material/library
+  logo: assets/images/Mindlogo.png
+
+# Plugins
+plugins:
+  - search:
+      lang: 
+        - zh
+        - en
+  - minify:
+      minify_html: true
+  - glightbox
+
+# Hooks
+# hooks:
+  # - material/.overrides/hooks/translations.py
+
+# Customization
+# extra:
+  # analytics:
+  #   provider: google
+  #   property: !ENV GOOGLE_ANALYTICS_KEY
+  # social:
+  #   - icon: fontawesome/solid/globe
+  #     link: https://www.mindplus.com.cn/
+  #   - icon: fontawesome/brands/github
+  #     link: https://github.com/UNIHIKER/unihiker-docs
+  #   - icon: fontawesome/brands/twitter
+  #     link: https://twitter.com/UNIHIKER
+  #   - icon: fontawesome/brands/facebook
+  #     link: https://www.facebook.com/UNIHIKER
+  #   - icon: fontawesome/brands/discord
+  #     link: https://discord.gg/rvvfNCvBKv
+#  alternate:
+#    - name: Chinese
+#      link: /zh/
+#      lang: zh
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.snippets
+  # - markdown.extensions.meta
+  - attr_list 
+  - md_in_html 
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: https://mindplus.cc/en.html
+  - Download: https://mindplus.cc/download-en.html
+  - Documentation:
+    - Mind+ V2 Official Tutorial: index.md
+    - 1.Quick Start: 
+      - 1.1 Mind+ Usage Guide: GettingStarted/1.1.md
+      - 1.2 Mind+ Usage Tutorial: GettingStarted/1.2.md
+    - 2.General Features:
+      - 2.1 Mind+ Introduction: SoftwareIntroduction/2.1.md
+      - 2.2 Software Installation:
+        - 2.1.1 Windows Offline Version Installation Tutorial: SoftwareIntroduction/2.2.1.md
+        - 2.1.2 Mac Offline Version Installation Tutorial: SoftwareIntroduction/2.2.2.md
+        - 2.1.3 Linux & Domestic System Offline Version Installation Tutorial: SoftwareIntroduction/2.2.3.md
+        - 2.1.4 Online Version Usage Tutorial: SoftwareIntroduction/2.2.4.md
+        - 2.1.5 Version Update Log: SoftwareIntroduction/2.2.5.md
+    - 3.Programming Design:
+      - 3.1 Real-time Mode: 
+        - ProgrammingModes/RealTimeMode/index.md
+        - 3.1.1 Menu Bar: ProgrammingModes/RealTimeMode/3.1.1.md
+        - 3.1.2 Settings: ProgrammingModes/RealTimeMode/3.1.2.md
+        - 3.1.3 Function Area - Blocks: 
+          - ProgrammingModes/RealTimeMode/3.1.3/index.md
+          - 3.1.3.1 Motion: ProgrammingModes/RealTimeMode/3.1.3.1.md
+          - 3.1.3.2 Looks: ProgrammingModes/RealTimeMode/3.1.3.2.md
+          - 3.1.3.3 Sound: ProgrammingModes/RealTimeMode/3.1.3.3.md
+          - 3.1.3.4 Events: ProgrammingModes/RealTimeMode/3.1.3.4.md
+          - 3.1.3.5 Control: ProgrammingModes/RealTimeMode/3.1.3.5.md
+          - 3.1.3.6 Sensing: ProgrammingModes/RealTimeMode/3.1.3.6.md
+          - 3.1.3.7 Operators: ProgrammingModes/RealTimeMode/3.1.3.7.md
+          - 3.1.3.8 Variables: ProgrammingModes/RealTimeMode/3.1.3.8.md
+          - 3.1.3.9 Functions: ProgrammingModes/RealTimeMode/3.1.3.9.md
+        - 3.1.4 Function Area - Costumes: ProgrammingModes/RealTimeMode/3.1.4.md
+        - 3.1.5 Function Area - Sounds: ProgrammingModes/RealTimeMode/3.1.5.md
+        - 3.1.6 Extension Area: ProgrammingModes/RealTimeMode/3.1.6.md
+        - 3.1.7 Programming Area: ProgrammingModes/RealTimeMode/3.1.7.md
+        - 3.1.8 Stage Area: ProgrammingModes/RealTimeMode/3.1.8.md
+        - 3.1.9 Sprite and Backdrop Area: ProgrammingModes/RealTimeMode/3.1.9.md
+      - 3.2 Upload Mode: 
+        -  ProgrammingModes/UploadMode/index.md
+        - 3.2.1 Menu Bar: ProgrammingModes/UploadMode/3.2.1.md
+        - 3.2.2 Settings: ProgrammingModes/UploadMode/3.2.2.md
+        - 3.2.3 Function Area - Blocks: 
+          - ProgrammingModes/UploadMode/3.2.3/index.md
+          - 3.2.3.1 Control: ProgrammingModes/UploadMode/3.2.3.1.md
+          - 3.2.3.2 Operators: ProgrammingModes/UploadMode/3.2.3.2.md
+          - 3.2.3.3 Variables: ProgrammingModes/UploadMode/3.2.3.3.md
+          - 3.2.3.4 Functions: ProgrammingModes/UploadMode/3.2.3.4.md
+        - 3.2.4 Extension Area: ProgrammingModes/UploadMode/3.2.4.md
+        - 3.2.5 Programming Area: ProgrammingModes/UploadMode/3.2.5.md
+        - 3.2.6 Code Display Area: ProgrammingModes/UploadMode/3.2.6.md
+        - 3.2.7 Serial Monitor: ProgrammingModes/UploadMode/3.2.7.md
+      - 3.3 Python Block Mode: 
+        - ProgrammingModes/PythonBlockMode/index.md
+        - 3.3.1 Menu Bar: ProgrammingModes/PythonBlockMode/3.3.1.md
+        - 3.3.2 Settings: ProgrammingModes/PythonBlockMode/3.3.2.md
+        - 3.3.3 Function Area - Blocks:
+          - ProgrammingModes/PythonBlockMode/3.3.3/index.md
+          - 3.3.3.1 Control: ProgrammingModes/PythonBlockMode/3.3.3.1.md
+          - 3.3.3.2 Operators: ProgrammingModes/PythonBlockMode/3.3.3.2.md
+          - 3.3.3.3 Text: ProgrammingModes/PythonBlockMode/3.3.3.3.md
+          - 3.3.3.4 Variables: ProgrammingModes/PythonBlockMode/3.3.3.4.md
+          - 3.3.3.5 Functions: ProgrammingModes/PythonBlockMode/3.3.3.5.md
+          - 3.3.3.6 Advanced Types: ProgrammingModes/PythonBlockMode/3.3.3.6.md
+          - 3.3.3.7 Python: ProgrammingModes/PythonBlockMode/3.3.3.7.md
+        - 3.3.4 Extension Area - Resource Files: ProgrammingModes/PythonBlockMode/3.3.4.md
+        - 3.3.5 Extension Area: ProgrammingModes/PythonBlockMode/3.3.5.md
+        - 3.3.6 Programming Area: ProgrammingModes/PythonBlockMode/3.3.6.md
+        - 3.3.7 Code Display Area: ProgrammingModes/PythonBlockMode/3.3.7.md
+        - 3.3.8 Terminal Display Area: ProgrammingModes/PythonBlockMode/3.3.8.md
+      - 3.4 MicroPython Block Mode: 
+        - ProgrammingModes/MicroPythonBlockMode/index.md
+        - 3.4.1 Menu Bar: ProgrammingModes/MicroPythonBlockMode/3.4.1.md
+        - 3.4.2 Settings: ProgrammingModes/MicroPythonBlockMode/3.4.2.md
+        - 3.4.3 Function Area - Blocks: 
+          - ProgrammingModes/MicroPythonBlockMode/3.4.3/index.md
+          - 3.4.3.1 Control: ProgrammingModes/MicroPythonBlockMode/3.4.3.1.md
+          - 3.4.3.2 Operators: ProgrammingModes/MicroPythonBlockMode/3.4.3.2.md
+          - 3.4.3.3 Text: ProgrammingModes/MicroPythonBlockMode/3.4.3.3.md
+          - 3.4.3.4 Variables: ProgrammingModes/MicroPythonBlockMode/3.4.3.4.md
+          - 3.4.3.5 Functions: ProgrammingModes/MicroPythonBlockMode/3.4.3.5.md
+          - 3.4.3.6 Advanced Types: ProgrammingModes/MicroPythonBlockMode/3.4.3.6.md
+        - 3.4.4 Function Area - Resource Files: ProgrammingModes/MicroPythonBlockMode/3.4.4.md
+        - 3.4.5 Extension Area: ProgrammingModes/MicroPythonBlockMode/3.4.5.md
+        - 3.4.6 Programming Area: ProgrammingModes/MicroPythonBlockMode/3.4.6.md
+        - 3.4.7 Code Display Area: ProgrammingModes/MicroPythonBlockMode/3.4.7.md
+        - 3.4.8 Terminal Display Area: ProgrammingModes/MicroPythonBlockMode/3.4.8.md
+      # - 3.5 MicroPython代码模式: ProgrammingModes/MicroPythonCodeMode/index.md
+      # - 3.6 Python代码模式: ProgrammingModes/PythonCodeMode/index.md
+    - 4.Model:
+      # - AITools/index.md
+      - 4.1 Mind+ Model Tool - Basic Introduction: 
+        # - AITools/Basic_description/index.md
+        - 4.1.1 Introduction: AITools/Basic_description/introduction/introduction.md
+        - 4.1.2 Quick Start: AITools/Basic_description/quick_start/quick-start.md
+        - 4.1.3 Model Training: AITools/Basic_description/model_training/model-training.md
+        - 4.1.4 Model Deployment: AITools/Basic_description/model_deployment/model-deployment.md
+        - 4.1.5 Real-time Result Push: AITools/Basic_description/real_time_push/real-time-push.md
+      - 4.2 Detailed Explanation:
+        - 4.2.1 【Image Classification】 Quick Experience: AITools/Detailed_explanation/image_classification/quick_experience/quick-experience.md
+        - "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【Image Classification】 Professional Mode": AITools/Detailed_explanation/image_classification/professional_mode/professional-mode.md
+        - 4.2.2 【Object Detection】 Quick Experience: AITools/Detailed_explanation/object_detection/quick_experience/quick-experience.md
+        - "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【Object Detection】 Professional Mode": AITools/Detailed_explanation/object_detection/professional_mode/professional-mode.md
+        - 4.2.3 【Instance Segmentation】 Quick Experience: AITools/Detailed_explanation/instance_segmentation/quick_experience/quick-experience.md
+        - "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【Instance Segmentation】 Professional Mode": AITools/Detailed_explanation/instance_segmentation/professional_mode/professional-mode.md
+        - 4.2.4 【Time Series Recognition】 Quick Experience: AITools/Detailed_explanation/time_series_recognition/quick_experience/quick-experience.md
+        - "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【Time Series Recognition】 Professional Mode": AITools/Detailed_explanation/time_series_recognition/professional_mode/professional-mode.md
+        - 4.2.5 【Speech Classification】 Quick Experience: AITools/Detailed_explanation/speech_classification/quick_experience/quick-experience.md
+        - 4.2.6 【Text Classification】 Quick Experience: AITools/Detailed_explanation/text_classification/quick_experience/quick-experience.md
+        - 4.2.7 【Pose Classification】 Quick Experience: AITools/Detailed_explanation/pose_classification/quick_experience/quick-experience.md
+    - 5.Interface Design: 
+      - 5.1 Data Visualization Dashboard: 
+        - ViewDesign/DashBoard/index.md
+  - FAQ: FAQ/index.md
+  - Extensions: Extensions/index.md
+  - Discover: https://mindplus.dfrobot.com/catalog
+  - Community: https://www.dfrobot.com
+  - About Us: https://www.dfrobot.com
+  - Mind+ V1.x Documentation: https://mindplus.dfrobot.com
+  
