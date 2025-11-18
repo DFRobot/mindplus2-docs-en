@@ -1,58 +1,59 @@
-## 系统要求
-- **操作系统：** 64位 Windows 10 及以上版本
-- **内存（RAM）：** 4GB 及以上
+## System Requirements
+- **Operating System:** 64-bit Windows 10 and above
+- **Memory (RAM):** 4GB and above
 
-> 以上为推荐最低配置，配置越高Mind+运行越流畅，编译速度越快，体验越好。
+> The above are the recommended minimum configurations. Higher configurations will make Mind+ run more smoothly, compile faster, and provide a better experience.
 
-> 如不满足此系统要求，可继续使用Mind+ V1版本.
+> If these system requirements are not met, you can continue to use Mind+ V1.
 
 ---
 
-## 安装步骤
+## Installation Steps
 
-### 步骤1：下载软件
+### Step 1: Download Software
 
-1. 访问Mind+官网：[**http://mindplus.cc**](http://mindplus.cc "http://mindplus.cc")
+1. Visit the Mind+ official website: [**http://mindplus.cc**](http://mindplus.cc "http://mindplus.cc")
 
-2. 点击 **立即下载** 按钮
+2. Click the **Download Now** button
    ![img](png_file/download.png)
 
-3. 根据您的操作系统选择对应版本进行下载
+3. Select the corresponding version for your operating system to download
    ![img](png_file/download1.png)
 
 
 
-### 步骤2：安装软件
+### Step 2: Install Software
 
-!!! note "安装提示"
-    如果电脑上已经安装了Mind+，新版本会自动覆盖旧版本，无需先卸载。
+!!! note "Installation Note"
+    If Mind+ is already installed on your computer, the new version will automatically overwrite the old version without needing to uninstall first.
 
-    如果想两个版本共存，请下载[Mind+ V1免安装版](https://mindplus.dfrobot.com.cn/PreviousVersions)。
+    If you want both versions to coexist, please download the [Mind+ V1 portable version](https://mindplus.dfrobot.com/PreviousVersions).
 
-1.**选择安装语言**
+1.**Select Installation Language**
 
-- 双击安装包，选择安装语言，点击 **OK** 继续
+- Double-click the installation package, select the installation language, and click **OK** to continue
 
     ![img](png_file/language.png)
 
-2.**完成安装**
+2.**Complete Installation**
 
--  按照安装向导提示进行安装，等待进度条完成即可
+-  Follow the installation wizard prompts to install, and wait for the progress bar to complete
 
     ![img](png_file/location.png)
     ![img](png_file/install.png)
 
-3.**安装成功**
+3.**Installation Successful**
 
-- 安装成功后，点击 **完成** 关闭安装向
+- After successful installation, click **Finish** to close the installation wizard
 
     ![img](png_file/success.png)
 
-!!! warning "注意"
-    如果安装过程中遇到问题，请参考下方 **常见问题** 部分的解决方案。
+!!! warning "Note"
+    If you encounter problems during installation, please refer to the **Common Issues** section below for solutions.
 
 ---
 
-## 常见问题
+## Common Issues
 
-持续更新中...
+Continuously updating...
+

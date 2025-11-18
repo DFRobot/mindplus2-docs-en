@@ -1,41 +1,43 @@
-# Mind+ V2 官方教程
+# Mind+ V2 Official Tutorial
 
 
 ![image.png](docs/start.png)
 
-欢迎来到 Mind+ V2 官方教程！Mind+ 是一款面向编程教育的图形化编程软件，支持多种编程模式，让编程学习变得更加简单有趣。
+Welcome to the Mind+ V2 Official Tutorial! Mind+ is a visual programming software designed for programming education, supporting multiple programming modes to make programming learning easier and more interesting.
+
+This tutorial is for Mind+ V2. If you are using Mind+ V1.x, please [click here](https://mindplus.dfrobot.com/) for the relevant tutorial.
 
 <div class="grid cards" markdown>
 
-- :material-rocket-launch: &nbsp; __[快速体验][quick-start]__  
-    新手必备，快速上手
+- :material-rocket-launch: &nbsp; __[Quick Start][quick-start]__  
+    Essential for beginners, get started quickly
   &nbsp;__[![image.png](docs/1.1.png){width=300, style="display:block;margin: 0 auto"}][quick-start]__
-  __&nbsp;[使用引导][guide] |&nbsp; [使用教程][tutorial]__
+  __&nbsp;[User Guide][guide] |&nbsp; [User Tutorial][tutorial]__
 
-- :material-cog: &nbsp; __[通用功能][general-function]__  
-    软件介绍与安装指南
+- :material-cog: &nbsp; __[General Functions][general-function]__  
+    Software introduction and installation guide
   &nbsp;__[![image.png](docs/2.1.png){width=265, style="display:block;margin: 0 auto"}][general-function]__
-  __&nbsp;[Mind+简介][intro] |&nbsp; [软件安装][install]__
+  __&nbsp;[Mind+ Introduction][intro] |&nbsp; [Software Installation][install]__
 
-- :material-code-braces: &nbsp; __[程序设计][programming]__  
-    多种编程模式，满足不同需求
+<!-- - :material-code-braces: &nbsp; __[Coding][programming]__  
+    Multiple programming modes to meet different needs
   &nbsp;__[![image.png](docs/3.1.png){width=300, style="display:block;margin: 0 auto"}][programming]__
-  __&nbsp;[实时模式][realtime] |&nbsp; [上传模式][upload] |&nbsp; [Python积木][python-block] |&nbsp; [MicroPython积木][micropython-block]__
+  __&nbsp;[Real-time Mode][realtime] |&nbsp; [Upload Mode][upload] |&nbsp; [Python Blocks][python-block] |&nbsp; [MicroPython Blocks][micropython-block]__ -->
 
-- :material-brain: &nbsp; __[模型训练][ai-tools]__  
-    人工智能工具与模型训练
+- :material-brain: &nbsp; __[Model][ai-tools]__  
+    Artificial intelligence tools and model training
   &nbsp;__[![image.png](docs/4.1.png){width=300, style="display:block;margin: 0 auto"}][ai-tools]__
-  __&nbsp;[基础说明][ai-basic] |&nbsp; [详细说明][ai-detailed]__
+  __&nbsp;[Basic Description][ai-basic] |&nbsp; [Detailed Description][ai-detailed]__
 
-- :material-palette: &nbsp; __[界面设计][view-design]__  
-    可视化界面设计工具
+- :material-palette: &nbsp; __[View][view-design]__  
+    Visual interface design tools
   &nbsp;__[![image.png](docs/5.1.png){width=300, style="display:block;margin: 0 auto"}][view-design]__
-  __&nbsp;[数据可视化面板][dashboard]__
+  __&nbsp;[Data Visualization Dashboard][dashboard]__
 
-- :material-puzzle: &nbsp; __[扩展库][extensions]__  
-    丰富的扩展功能
+<!-- - :material-puzzle: &nbsp; __[Extensions][extensions]__  
+    Rich extension functions
   &nbsp;__[![image.png](docs/6.1.png){width=300, style="display:block;margin: 0 auto"}][extensions]__
-  __&nbsp;[扩展功能][ext-func] |&nbsp; [扩展开发][ext-dev]__
+  __&nbsp;[Extension Functions][ext-func] |&nbsp; [Extension Development][ext-dev]__ -->
 
 </div>
 

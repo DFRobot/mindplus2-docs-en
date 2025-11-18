@@ -1,9 +1,9 @@
-在完成对Mind+功能与界面的初步了解后，我们将进入正式的学习环节！
-本部分将带你通过三个不同模式的课程——**实时模式、上传模式与Python代码模式**，循序渐进地掌握从图形化编程到代码编程的完整技能体系，为后续的创意项目打下坚实基础。
-当然，你也可以根据自身的学习目标与使用需求，选择最适合的教程进行学习。  
+After completing your initial understanding of Mind+'s functions and interface, we will enter the formal learning phase!
+This section will guide you through three different mode courses—**Real-time Mode, Upload Mode, and Python Code Mode**—to progressively master the complete skill system from visual programming to code programming, laying a solid foundation for subsequent creative projects.
+Of course, you can also choose the most suitable tutorial for learning based on your learning goals and usage requirements.
 
-| **编程模式**   | **学习教程** |
-| -------------- | ------------ |
-| 实时模式       | 更新中。。。 |
-| 上传模式       | 更新中。。。 |
-| Python代码模式 | 更新中。。。 |
+| **Programming Mode** | **Learning Tutorial** |
+| -------------------- | --------------------- |
+| Real-time Mode       | Updating...           |
+| Upload Mode          | Updating...           |
+| Python Code Mode     | Updating...           |

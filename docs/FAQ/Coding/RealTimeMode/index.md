@@ -1,2 +1,2 @@
-# 实时模式常见问题
-持续更新中...
+# Real-Time Mode Issues
+Under development, stay tuned.

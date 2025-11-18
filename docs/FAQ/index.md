@@ -1,53 +1,53 @@
 
-欢迎来到 Mind+ 常见问题解答页面！这里汇总了用户在使用 Mind+ 软件过程中遇到的各类问题及其解决方案。
+Welcome to the Mind+ FAQ page! This page compiles various issues and solutions that users encounter while using Mind+ software.
 
-## 🔍 快速导航
+## 🔍 Quick Navigation
 
-根据您遇到的问题类型，选择对应的分类进行查找：
+Select the corresponding category based on the type of issue you encounter:
 
-### 程序设计
-
-<div class="grid cards" markdown>
-
-- **[实时模式](Coding/RealTimeMode/index.md)**  
-    [![实时模式](img/cover1-1.png){width=400, style="display:block;margin: 10px auto"}](Coding/RealTimeMode/index.md)
-
-- **[上传模式](Coding/UploadMode/index.md)**  
-    [![上传模式](img/cover2-2.png){width=400, style="display:block;margin: 10px auto"}](Coding/UploadMode/index.md)
-
-- **[Python积木模式](Coding/PythonBlockMode/index.md)**  
-    [![Python积木模式](img/cover3-3.png){width=400, style="display:block;margin: 10px auto"}](Coding/PythonBlockMode/index.md)
-
-- **[MicroPython积木模式](Coding/MicroPythonBlockMode/index.md)**  
-    [![MicroPython积木模式](img/cover4-4.png){width=400, style="display:block;margin: 10px auto"}](Coding/MicroPythonBlockMode/index.md)
-
-</div>
-
-### 模型训练
+### Coding
 
 <div class="grid cards" markdown>
 
-- **[模型训练](AITools/index.md)**  
-    [![模型训练](img/cover5-5.png){style="display:block;margin: 10px auto"}](AITools/index.md)
+- **[Real-time Mode](Coding/RealTimeMode/index.md)**  
+    [![Real-time Mode](img/cover1-1.png){width=400, style="display:block;margin: 10px auto"}](Coding/RealTimeMode/index.md)
+
+- **[Upload Mode](Coding/UploadMode/index.md)**  
+    [![Upload Mode](img/cover2-2.png){width=400, style="display:block;margin: 10px auto"}](Coding/UploadMode/index.md)
+
+- **[Python Block Mode](Coding/PythonBlockMode/index.md)**  
+    [![Python Block Mode](img/cover3-3.png){width=400, style="display:block;margin: 10px auto"}](Coding/PythonBlockMode/index.md)
+
+- **[MicroPython Block Mode](Coding/MicroPythonBlockMode/index.md)**  
+    [![MicroPython Block Mode](img/cover4-4.png){width=400, style="display:block;margin: 10px auto"}](Coding/MicroPythonBlockMode/index.md)
+
 </div>
 
-### 界面设计
+### Model
 
 <div class="grid cards" markdown>
 
-- **[界面设计](ViewDesign/index.md)**  
-    [![界面设计](img/cover6-6.png){style="display:block;margin: 10px auto"}](ViewDesign/index.md)
+- **[Model](AITools/index.md)**  
+    [![Model](img/cover5-5.png){style="display:block;margin: 10px auto"}](AITools/index.md)
+</div>
 
-<!-- - **[扩展库](UserExtension/index.md)**  
-    [![扩展库](img/cover7-7.png){style="display:block;margin: 10px auto"}](UserExtension/index.md) -->
+### View
+
+<div class="grid cards" markdown>
+
+- **[View](ViewDesign/index.md)**  
+    [![View](img/cover6-6.png){style="display:block;margin: 10px auto"}](ViewDesign/index.md)
+
+<!-- - **[Extension Libraries](UserExtension/index.md)**  
+    [![Extension Libraries](img/cover7-7.png){style="display:block;margin: 10px auto"}](UserExtension/index.md) -->
 
 </div>
 
-## 💡 使用提示
+## 💡 Usage Tips
 
-- **快速搜索**：<button onclick="openSearch()" style="background: #1976d2; color: white; border: none; padding: 4px 12px; border-radius: 4px; cursor: pointer; font-size: 0.9em;">🔍 点击搜索</button> 
-- **问题反馈**：如果没有找到您的问题，可以通过官方QQ群或论坛反馈  
-- **持续更新**：我们会根据用户反馈持续更新常见问题库
+- **Quick Search**: <button onclick="openSearch()" style="background: #1976d2; color: white; border: none; padding: 4px 12px; border-radius: 4px; cursor: pointer; font-size: 0.9em;">🔍 Click to Search</button> 
+- **Issue Feedback**: If you can't find your issue, you can provide feedback through  forum  
+- **Continuous Updates**: We will continuously update the FAQ based on user feedback
 
 <script>
 function openSearch() {
@@ -82,15 +82,6 @@ function openSearch() {
             break;
         }
     }
-    
-    // 如果都找不到，使用键盘快捷键
-    if (!searchElement) {
-        const event = new KeyboardEvent('keydown', {
-            key: 'k',
-            ctrlKey: true,
-            bubbles: true
-        });
-        document.dispatchEvent(event);
-    }
+
 }
 </script>

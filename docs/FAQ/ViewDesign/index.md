@@ -1,2 +1,2 @@
-# 界面设计常见问题
-持续更新中...
+# View Issues
+Under development, stay tuned.

@@ -1,10 +1,10 @@
-安装完成后启动Mind+，你将看到如下主界面：
+After completing the installation and launching Mind+, you will see the main interface as follows:
 
 ![img](png_file/1760585285069-8bd064cc-18ce-4b7e-b42d-77036f3931a1.png)
 
-在主界面右侧区域，主要分布着三个功能板块：**程序设计、模型训练** 和 **界面设计**。它们分别用于实现程序编写、人工智能训练以及交互界面设计。  
+In the right area of the main interface, there are mainly three functional modules: **Program Design, Model Training**, and **Interface Design**. They are respectively used for program writing, artificial intelligence training, and interactive interface design.
 
-| 程序设计 | Mind+的核心编程区域     | 在该功能中，你可以通过图形化积木编程或代码编程的方式，编写程序来控制主控板、传感器、执行器。并支持多种主控（如：microbit、UNIHIKER K10&M10、Arduino等），让你轻松实现从见到控制到复杂交互的创意项目。 |
-| -------- | ----------------------- | ------------------------------------------------------------ |
-| 模型训练 | Mind+的AI学习与训练平台 | 在该功能中，你可以收集数据、标注样本，并训练属于自己的 AI 模型，实现图像识别、声音识别、时序模式识别等智能功能。 训练完成的模型还能与程序设计模块联动，让作品具备“识别”“判断”“学习”的能力。 |
-| 界面设计 | 用于创建交互界面区域    | 在该功能中，你可以设计按钮、文本框、图片、仪表等控件，实现人机交互或数据显示功能。 它常用于制作智能控制面板、可视化监控界面或创意互动作品。 |
+| Program Design | The core programming area of Mind+ | In this function, you can write programs to control microcontrollers, sensors, and actuators through visual block programming or code programming. It supports multiple microcontrollers (such as: microbit, UNIHIKER K10&M10, Arduino, etc.), allowing you to easily implement creative projects from simple control to complex interaction. |
+| -------------- | ----------------------------------- | ------------------------------------------------------------ |
+| Model Training | AI learning and training platform of Mind+ | In this function, you can collect data, annotate samples, and train your own AI models to achieve intelligent functions such as image recognition, sound recognition, and time series pattern recognition. Trained models can also be linked with the program design module, giving works the ability to "recognize", "judge", and "learn". |
+| Interface Design | Area for creating interactive interfaces | In this function, you can design controls such as buttons, text boxes, images, and gauges to implement human-computer interaction or data display functions. It is commonly used to create smart control panels, visual monitoring interfaces, or creative interactive works. |

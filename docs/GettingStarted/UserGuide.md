@@ -1,23 +1,23 @@
-Mind+ 是一款融合图形化编程与代码编程的综合创作平台，能够满足用户从基础学习到项目开发的全流程需求。
-无论你是刚接触编程的新手，还是希望实现智能交互应用的创作者，都可以在 Mind+ 中逐步提升编程能力，完成富有创意的项目构建。
+Mind+ is a comprehensive creative platform that integrates visual programming with code programming, meeting users' complete workflow needs from basic learning to project development.
+Whether you are a newcomer to programming or a creator looking to implement intelligent interactive applications, you can gradually improve your programming skills in Mind+ and complete creative project construction.
 
-平台广泛应用于中小学编程教育、创客教学、STEAM 课程及人工智能实践等领域，帮助用户构建系统化、递进式的学习路径。
+The platform is widely used in primary and secondary school programming education, maker teaching, STEAM courses, and artificial intelligence practice, helping users build systematic and progressive learning paths.
 
-在 Mind+ 中，你不仅可以编写程序，还可以进行AI 模型训练，并借助界面设计工具打造完整的人机交互作品，实现从创意构想到实际呈现的完整开发体验。
+In Mind+, you can not only write programs but also conduct AI Model and create complete human-computer interactive works with View tools, achieving a complete development experience from creative conception to actual presentation.
 
-学习入门路径参考：
+Learning pathway reference:
 
-| **目标**                                     | **建议从哪里开始**     |
-| -------------------------------------------- | ---------------------- |
-| 我是小白，想先了解编程                       | 程序设计（图形化编程） |
-| 我会一些编程，想玩硬件或智能交互             | 程序设计 + 模型训练 |
-| 我想做一个完整APP / 项目展示界面             | 程序设计 + 界面设计    |
-| 我想训练图像识别、图像分类或姿态分类等AI模型 |  模型训练            |
+| **Goal**                                                | **Recommended Starting Point**        |
+| ------------------------------------------------------- | ------------------------------------- |
+| I'm a beginner and want to understand programming first | Coding    |
+| I know some programming and want to play with hardware or intelligent interaction | Coding + Model |
+| I want to create a complete APP / project display interface | Coding + View |
+| I want to train AI models like image recognition, image classification, or pose classification | Model |
 
-为了帮助你快速上手，准备了三个关键功能模块的引导导航，你可以根据需求自由选择路径开始探索：
+To help you get started quickly, we have prepared guided navigation for three key functional modules. You can freely choose a path to start exploring based on your needs:
 
-| **功能模块**         | **你可以做什么**                                         | **适合人群**                  |
-| -------------------- | -------------------------------------------------------- | ----------------------------- | 
-| 程序设计（图形化编程） | 使用图形化或代码模式编写程序，控制硬件或构建动画、游戏   | 初学者 / 进阶创作者           | 
-| 模型训练          | 训练图像/声音/文本模型，实现智能识别与互动体验           | 创客教育 / AI 创作者          | 
-| 界面设计             | 使用 UI 设计工具创建交互界面，实现人机对话与应用作品展示 | 项目开发者 / 展示型作品创作者 | 
+| **Functional Module**     | **What You Can Do**                                     | **Suitable For**                    |
+| ------------------------- | ------------------------------------------------------- | ----------------------------------- |
+| Coding  | Use visual or code mode to write programs, control hardware, or build animations and games | Beginners / Advanced Creators |
+| Model            | Train image/audio/text models to achieve intelligent recognition and interactive experiences | Maker Education / AI Creators |
+| View          | Use UI design tools to create interactive interfaces, realize human-computer dialogue and application display | Project Developers / Display-oriented Work Creators | 

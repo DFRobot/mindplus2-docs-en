@@ -1,3 +1,1 @@
-# 扩展库常见问题
-## 无法输入链接加载用户库？
-- [点击查看解决方法](how-to-use.md)
+Under development, stay tuned.
