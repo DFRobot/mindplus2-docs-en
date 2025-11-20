@@ -104,9 +104,9 @@ Write a program to call the model for inference according to the actual applicat
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![img](../img/4_model_deployment/1761628513198-1b1ff93b-5ab8-45aa-b46f-99ac03f34622.png) | ![img](../img/4_model_deployment/1761628513149-774af88a-09d5-4e0e-adb6-d78eec41a981.png) |
 
-## 6. More Model Deployment and Inference Application Cases
+<!-- ## 6. More Model Deployment and Inference Application Cases
 
 | Related Model        | Application Case                                             | Case Description                                             |
 | -------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Object Detection     | Automatic Product Detection and Pricing Device               | This project uses object detection technology to automatically recognize and price products. The system captures real-time images of items on shelves or in shopping baskets through a camera, identifies each product’s category and location using a trained detection model, and calculates the total price based on product information. |
-| Image Classification | [Emotion Recognition Driving Companion](https://h7dvigefi0.feishu.cn/drive/folder/E0zXfpt63lghKpdKceoc5NWanJe) | This project leverages image classification to provide interactive responses based on real-time facial expressions. When the driver shows an angry expression, the system gently reminds, “Don’t be upset, take it easy.” When the driver smiles, it cheerfully responds, “Let’s sing together!”, creating a relaxed and enjoyable driving experience. |
+| Image Classification | [Emotion Recognition Driving Companion](https://h7dvigefi0.feishu.cn/drive/folder/E0zXfpt63lghKpdKceoc5NWanJe) | This project leverages image classification to provide interactive responses based on real-time facial expressions. When the driver shows an angry expression, the system gently reminds, “Don’t be upset, take it easy.” When the driver smiles, it cheerfully responds, “Let’s sing together!”, creating a relaxed and enjoyable driving experience. | -->
