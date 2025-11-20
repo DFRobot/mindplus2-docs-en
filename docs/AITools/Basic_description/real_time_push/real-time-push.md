@@ -43,10 +43,11 @@ Do not close the transmission tool while it is running.
 
 -  SIoT Tool Download Links：
 
-- - Tencent Weiyun (Recommended): Link: https://share.weiyun.com/6SFhgLQj
+Under development, stay tuned.
+<!-- - - Tencent Weiyun (Recommended): Link: https://share.weiyun.com/6SFhgLQj
   - Baidu Netdisk: Link: https://pan.baidu.com/s/17clVjJXWTZh02FteKy3mcA?pwd=mind Extraction Code: mind
   - Alibaba Cloud Drive: https://www.aliyundrive.com/s/tCqwJwGtZzL Extraction Code: 3h4x
-  - Google Drive: Link: [Click to Download](https://drive.google.com/drive/folders/16Lf0itQ-v2oZrUJEFHrOhjfgS68eN6bn)
+  - Google Drive: Link: [Click to Download](https://drive.google.com/drive/folders/16Lf0itQ-v2oZrUJEFHrOhjfgS68eN6bn) -->
 
 ![img](../img/5_real_time_push/1761628514086-91176434-5375-444d-890b-0fcc1c07112d.png)
 
@@ -96,5 +97,5 @@ Do not close the transmission tool while it is running.
 
 
 - Real-time result push is an efficient model deployment method that can transmit inference results over the network to a specified platform or device in real time. In addition to the UNIHIKER K10 mainboard used in the example, this feature is also applicable to UNIHIKER M10, micro:bit, Arduino, Makernotes boards, and other mainboards, and can even run directly in real-time mode to achieve cross-hardware data interaction and result display.
-- 如需进一步学习，可前往[SioT使用教程](https://mindplus.dfrobot.com.cn/siot)查看详细说明。
+- 如需进一步学习，可前往[SioT使用教程]()查看详细说明。
 - Special note: When using micro:bit or Arduino as the mainboard, the OBLOQ IoT WiFi module is required.

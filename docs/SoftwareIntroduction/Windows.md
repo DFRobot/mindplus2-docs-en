@@ -48,6 +48,32 @@
 
     ![img](png_file/success.png)
 
+4.**Run Mind+**
+
+- click **Finsh** to run Mind+
+
+### Step 3: Language Settings
+![img](png_file/languageset.png)
+
+If the Mind+ interface is not in English when you first open it, you can easily change the language settings:
+
+1.**Open Settings**
+
+   - Click the **Settings**  in the top-right corner of the Mind+ interface
+
+2.**Change Language**
+
+   - In the Settings menu, look for **Language** or **语言设置** option
+   - Select **English** from the dropdown menu
+   - The interface will automatically switch to English
+
+3.**Restart if Needed**
+
+   - If the language doesn't change immediately, restart Mind+ for the changes to take effect
+
+!!! tip "Language Tip"
+    Mind+ supports multiple languages including English, Chinese, and others. You can switch between languages at any time through the Settings menu.
+
 !!! warning "Note"
     If you encounter problems during installation, please refer to the **Common Issues** section below for solutions.
 
