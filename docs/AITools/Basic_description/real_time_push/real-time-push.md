@@ -88,7 +88,7 @@ Under development, stay tuned.
 | ![img](../img/5_real_time_push/1762481296906-c7b006ec-f0e1-433f-85f3-81e6c3f74d61.png) | ![img](../img/5_real_time_push/1762481667613-a117c996-5043-46ee-b469-9f2b164ed790.png) |
 | ![img](../img/5_real_time_push/1762481344779-6a294dcb-e072-4a8a-ab05-20f54b706262.png) | ![img](../img/5_real_time_push/1762481653978-f838c4fd-7dee-4836-8fc3-df47b2019763.png) |
 
-## 4. More Real-Time Result Push Application Cases
+<!-- ## 4. More Real-Time Result Push Application Cases
 
 | Model               | Application Case                                             | Case Description                                             |
 | ------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -98,4 +98,4 @@ Under development, stay tuned.
 
 - Real-time result push is an efficient model deployment method that can transmit inference results over the network to a specified platform or device in real time. In addition to the UNIHIKER K10 mainboard used in the example, this feature is also applicable to UNIHIKER M10, micro:bit, Arduino, Makernotes boards, and other mainboards, and can even run directly in real-time mode to achieve cross-hardware data interaction and result display.
 - 如需进一步学习，可前往[SioT使用教程]()查看详细说明。
-- Special note: When using micro:bit or Arduino as the mainboard, the OBLOQ IoT WiFi module is required.
+- Special note: When using micro:bit or Arduino as the mainboard, the OBLOQ IoT WiFi module is required. -->

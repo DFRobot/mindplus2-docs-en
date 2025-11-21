@@ -121,7 +121,7 @@ Although the data is sent to the SIoT platform in real time, it is not stored in
 
 ![img](../img/1_quick_experience/1761727083061-a6f217c0-691b-4a05-8bfe-5132823fe291.png)
 
-For instructions on model deployment and real-time result push, please refer to section [4.1.4 Model Deploy](https://www.yuque.com/joanna-rqvih/ilxuhv/aepmmgw4s77247vi) & [4.1.5Real-Time Result Push.](https://www.yuque.com/joanna-rqvih/ilxuhv/ph3e9rp4q7c7x1oe)
+<!-- For instructions on model deployment and real-time result push, please refer to section [4.1.4 Model Deploy](https://www.yuque.com/joanna-rqvih/ilxuhv/aepmmgw4s77247vi) & [4.1.5Real-Time Result Push.](https://www.yuque.com/joanna-rqvih/ilxuhv/ph3e9rp4q7c7x1oe) -->
 
 ### Common Issues in Model Training  
 

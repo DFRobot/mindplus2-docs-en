@@ -153,7 +153,7 @@ The trained model can recognize different motion patterns — such as **Applausi
 
 ![img](../img/2_professional_mode/1762162096360-a4b55df1-37e7-45ed-8923-07a61c4236be.png)
 
-The exported model can be used for deployment. To learn how to operate model deployment, you can refer to Section [4.1.4 Model Deploy.](https://www.yuque.com/joanna-rqvih/ilxuhv/aepmmgw4s77247vi)
+<!-- The exported model can be used for deployment. To learn how to operate model deployment, you can refer to Section [4.1.4 Model Deploy.](https://www.yuque.com/joanna-rqvih/ilxuhv/aepmmgw4s77247vi) -->
 
 ## **Common Issues**
 

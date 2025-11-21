@@ -201,7 +201,7 @@ Tip: ONNX is an open model format that can run across various deep learning fram
 
 ![img](../img/1_quick_experience/1762151657199-31dc4e43-855d-4d4f-8998-132ad81bd03e.png)
 
-For instructions on model deployment and real-time result push, please refer to section [4.1.4 Model Deploy](https://www.yuque.com/joanna-rqvih/ilxuhv/aepmmgw4s77247vi) & [4.1.5Real-Time Result Push.](https://www.yuque.com/joanna-rqvih/ilxuhv/ph3e9rp4q7c7x1oe)
+<!-- For instructions on model deployment and real-time result push, please refer to section [4.1.4 Model Deploy](https://www.yuque.com/joanna-rqvih/ilxuhv/aepmmgw4s77247vi) & [4.1.5Real-Time Result Push.](https://www.yuque.com/joanna-rqvih/ilxuhv/ph3e9rp4q7c7x1oe) -->
 
 ## Common Issues in Model Training  
 

@@ -51,7 +51,7 @@ It is recommended to save the entire Model project as a project file for later o
 
 | ![img](../img/4_model_deployment/1761628510806-5bd9820a-31f4-42fb-bc78-0f1b85bf6cdd.png) | ![img](../img/4_model_deployment/1761628510921-58f8d649-ebf9-4729-b2c7-622e888e2928.png) | ![img](../img/4_model_deployment/1761628511410-bae76cca-129a-41e4-9cc9-c92ad4c19073.png) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [行空板M10（系统版本：0.4.1）](https://www.dfrobot.com.cn/goods-3404.html) | [USB摄像头](https://www.dfrobot.com.cn/goods-2847.html)      | [USB数据线](https://www.dfrobot.com.cn/goods-2977.html)      |
+| [UNIHIKER M10（System version：>=0.4.1）](https://www.dfrobot.com/product-2691.html) | [USB Camera](https://www.dfrobot.com/product-2089.html)      | [USB 3.0 to Type-C Cable](https://www.dfrobot.com/product-2171.html)      |
 
 - Hardware Connection  
 
@@ -103,6 +103,80 @@ Write a program to call the model for inference according to the actual applicat
 | The Image Classification result is: Happy                    | The Image Classification result is: Angre                    |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![img](../img/4_model_deployment/1761628513198-1b1ff93b-5ab8-45aa-b46f-99ac03f34622.png) | ![img](../img/4_model_deployment/1761628513149-774af88a-09d5-4e0e-adb6-d78eec41a981.png) |
+
+### 5.3 Taking the Huskylens 2 as an example
+#### 5.3.1 Model Deploy
+
+!!! Note "Note" 
+    This hardware currently only supports **Object Detection**, which requires an internet connection for conversion.
+
+Once model training is complete, click "Deploy to HUSKYLENS 2".
+
+![img](../img/4_model_deployment/1763697070173-9.png)
+
+- Step 1: Select an icon  
+
+First, choose an appropriate icon for your model application. Several pre-selected icons are provided here; you can select your preferred icon from the previews, or click `+` to upload any custom icon image. We recommend using PNG images with transparent backgrounds, white-line icons, and a resolution of 60*60 pixels.  
+
+- Step 2: Enter App name and Title  
+
+!!! Tip
+    **Naming Restrictions:** For Erha Image Recognition 2 system versions <1.2.0, Chinese characters are not currently supported in model names.
+
+    Names cannot contain the following characters:
+
+    <TEXT>
+
+    \ / : * ? " < > |
+
+Set the App Name and Title based on the model's functionality. For example, if you want to use this model for supermarket product recognition, set App Name and Title to `Product Recognition`.  
+
+- Step 3: Click Start Conversion  
+
+Click "Start Conversion" to begin the process.
+
+![img](../img/4_model_deployment/1763697070169-1.png)
+
+Wait for the message "model converted successfully" to appear, then click "Download to Computer".
+
+![img](../img/4_model_deployment/1763697070169-2.png)
+
+Save the converted model compressed file to your computer.
+
+![img](../img/4_model_deployment/1763697070169-3.png)
+
+#### 5.3.2 Hardware Preparation 
+
+| ![img](../img/4_model_deployment/image_21.png) | ![img](../img/4_model_deployment/image_22.png) |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [Huskylens 2 （System version：>=1.1.6）](https://www.dfrobot.com/product-2995.html) |  [USB 3.0 to Type-C Cable](https://www.dfrobot.com/product-2171.html)      |
+
+Connect your computer to HUSKYLENS 2 using a Type-C cable. Once connected, a disk named `Huskylens` will appear on your computer.
+
+Copy the generated model ZIP file to the following directory on the `Huskylens` disk:`\storage\installation_package`
+
+![img](../img/4_model_deployment/1763697070169-4.png)
+
+#### 5.3.3 Model Installation
+Tap the HUSKYLENS 2 screen to wake it up (if the screen is off), then navigate and tap to enter the `Model Installation` menu.
+
+![img](../img/4_model_deployment/1763697070169-5.png)
+
+Select "Local Installation" from the menu. After a successful installation, the screen will display the interface shown in the diagram below.
+
+![img](../img/4_model_deployment/1763697070169-6.png)
+
+At this point, observe the HUSKYLENS 2 screen—if a new function named "Product Recognition" appears, it indicates that we have successfully imported the self-trained model into HUSKYLENS 2.
+
+![img](../img/4_model_deployment/1763697070169-7.png)
+
+You can tap to enter the "Product Recognition” function and observe the recognition effect of the self-trained model.
+
+![img](../img/4_model_deployment/1763697070169-8.png)
+
+
+
+
 
 <!-- ## 6. More Model Deployment and Inference Application Cases
 

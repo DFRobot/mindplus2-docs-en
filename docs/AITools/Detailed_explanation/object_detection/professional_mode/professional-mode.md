@@ -156,7 +156,7 @@ If you are not satisfied with the model’s performance, you can go to the **Mod
 
 ![img](../img/2_professional_mode/1761895849427-cf1a6906-cd69-422e-bb21-0c79d17f25d7.png)
 
-The exported model can be used for deployment. To learn how to operate model deployment, you can refer to Section [4.1.4 Model Deploy.](https://www.yuque.com/joanna-rqvih/ilxuhv/aepmmgw4s77247vi)
+<!-- The exported model can be used for deployment. To learn how to operate model deployment, you can refer to Section [4.1.4 Model Deploy.](https://www.yuque.com/joanna-rqvih/ilxuhv/aepmmgw4s77247vi) -->
 
 ### **Common Issues**
 
