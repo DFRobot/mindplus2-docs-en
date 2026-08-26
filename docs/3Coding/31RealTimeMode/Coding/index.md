@@ -1,8 +1,6 @@
 # 3. Coding
 
-# 3. Programming Design
-
-#### **1. Programming Design**
+## **1. Programming Design**
 
 Programming Design provides a variety of programming modes, covering graphical block-based programming and text-based code programming, to meet the learning needs of all stages—from zero-foundation beginners to advanced development.
 
@@ -18,7 +16,7 @@ Programming Design provides a variety of programming modes, covering graphical b
 | [**MicroPython Block Mode (C4)**](../34MicroPythonBlockMode/index.md) | Uses MicroPython blocks to control hardware boards and develop embedded projects via drag-and-drop. Controls hardware such as sensors and actuators without handwritten code, while automatically generating MicroPython code in the background.                               |
 | [**MicroPython Code Mode (C5)**](../35MicroPythonCodeMode/index.md)   | Pure text MicroPython code programming, directly writing code to control hardware mainboards. Suitable for users with programming foundations to flexibly implement more complex embedded control logic.                                                                       |
 
-#### **2. General Features - Block Backpack**
+## **2. General Features - Block Backpack**
 
 The Backpack is a general-purpose graphical programming tool that supports long-term saving and reuse of custom blocks. Users can store frequently used program logic, combined block stacks, and custom function blocks in the backpack without reassembling them every time, greatly improving project creation efficiency. It is ideal for accumulating and organizing frequently reused code snippets and general function logic. It supports renaming, deleting, and dragging blocks anytime, offering lightweight and flexible operation.
 
@@ -41,13 +39,13 @@ The Backpack is a general-purpose graphical programming tool that supports long-
 
 **Detailed Steps**
 
-**1. Open the Backpack**
+### **Open the Backpack**
 
 Click the Backpack button below the coding area to bring up the Backpack panel (taking Upload Mode as an example).
 
 ![image](./index.assets/pic_1787726433941.png)
 
-**2. Save Resources**
+### **Save Resources**
 
 Select blocks or custom function blocks to add them directly to the backpack. You can store commonly used logic snippets and custom composite blocks for long-term reuse.
 
@@ -55,13 +53,13 @@ Simply drag the selected block(s) you want to save directly into the Backpack pa
 
 ![image](./index.assets/pic_1787726973106.png)
 
-**3. Manage Resources**
+### **Manage Resources**
 
 Items in the backpack support renaming and deletion. After saving the blocks, right-click on the saved block in the Backpack panel to rename or delete it.
 
 ![image](./index.assets/pic_1787727064129.png)
 
-**4. Use Resources**
+### **Use Resources**
 
 Open the Backpack panel and drag saved items directly into the coding area without having to rebuild the same logic, boosting project development efficiency.
 
@@ -71,4 +69,4 @@ Open the Backpack panel and drag saved items directly into the coding area witho
 
 If the saved blocks contain a mainboard block (e.g., UNIHIKER K10 on start) or depend on module extensions (such as servo modules), the software will automatically load the corresponding mainboard and extension modules when the blocks are dragged from the backpack into the coding area.
 
-![image](./index.assets/pic_1786438280279.png)
+![image](./index.assets/pic_1787736145557.png)

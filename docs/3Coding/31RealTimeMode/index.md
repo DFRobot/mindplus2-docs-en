@@ -14,15 +14,14 @@ Once you enter real-time mode, you will see the following screen.
 
 The interface can be divided into seven areas: the menu bar, settings, the function area, the extensions area, the programming area, the stage area, and the Sprite and background area.
 
-![image](./index.assets/pic_1781257166286.png)
+![image](./index.assets/pic_1787738764274.png)
 
 Next, we’ll take a closer look at these seven areas. For a detailed overview of each area’s features, click here:
 
-| [Menu Bar](311MenuBar.md)                                       | [Settings](312Settings.md)            | [Functional Areas-Blocks](313FunctionalAreasBlocks/index.md) | [Functional area-Costumes](313FunctionalAreaCostumes.md) |
-| ------------------------------------------------------------ | ---------------------------------- | --------------------------------------------------------- | ----------------------------------------------------- |
-| [Function Area-Sounds](315FunctionAreaSound.md)                 | [Extension Area](316ExtensionArea.md) | [Programming Area](317ProgrammingArea.md)                    | [Stage Area](318StageArea.md)                            |
-| [Sprite and background area](319CharactersAndBackgroundArea.md) |                                    |                                                           |                                                       |
-
+|                    [Menu Bar](311MenuBar.md)                    | [Settings](312Settings.md)                                              | [Functional Areas-Blocks](313FunctionalAreasBlocks/index.md) | [Functional area-Costumes](313FunctionalAreaCostumes.md) |
+| :----------------------------------------------------------: | -------------------------------------------------------------------- | --------------------------------------------------------- | ----------------------------------------------------- |
+|         [Function Area-Sounds](315FunctionAreaSound.md)         | [Extension Area](316ExtensionArea.md)                                   | [Programming Area](317ProgrammingArea.md)                    | [Stage Area](318StageArea.md)                            |
+| [Sprite and background area](319CharactersAndBackgroundArea.md) | [BackPack](../31RealTimeMode/Coding/#2-general-features-block-backpack) |                                                           |                                                       |
 
 ### Frequently Asked Questions
 

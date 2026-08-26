@@ -4,12 +4,11 @@ The Settings interface contains the software's global settings. Click the "Setti
 
 ![image](./312Settings.assets/pic_1780475295206.png)
 
-#### 1. Language
+## 1. Language
 
 Supports 20 different languages, selectable by the user, to meet a wide range of user needs.
 
 ![image](./312Settings.assets/pic_1787727468173.png)
-
 
 |       简体中文       |  English  | Ελληνικά | Español Latinoamericano |  한국어  |
 | :------------------: | :-------: | :--------------: | :----------------------: | :------: |
@@ -18,19 +17,19 @@ Supports 20 different languages, selectable by the user, to meet a wide range of
 |       Deutsch       | Hrvatski |     Català     |       Tiếng Việt       |  Polski  |
 | Українська | Čeština |     Română     |                          |          |
 
-#### 2. Theme
+## 2. Theme
 
 It supports six different themes, allowing you to change the overall color scheme of the interface to suit different user preferences.
 
 ![image](./312Settings.assets/pic_1787727474213.png)
 
-#### 3. Contact Us
+## 3. Contact Us
 
 Find our official contact information under "Contact Us" in the settings, join our study group, and connect with other users to learn together.
 
 ![image](./312Settings.assets/pic_1787727491338.png)
 
-#### 4. Developer Mode
+## 4. Advanced Options
 
 Developer Mode is an advanced feature toggle for Mind+, available to developers and advanced users. Once enabled, users gain access to custom graphical block development, hardware driver library creation, and the ability to import third-party extension packages, allowing them to expand functionality beyond what is built into the official version.
 
@@ -41,8 +40,7 @@ Developer Mode is an advanced feature toggle for Mind+, available to developers 
 
 ![image](./312Settings.assets/pic_1787727544986.png)
 
-
-# 5. Data Cleanup
+## 5. Data Cleanup
 
 Data Cleanup in programming modes is primarily used to clear the local cache data for the corresponding mode. The cleanup scope only applies to the currently opened programming mode and does not affect data from other modes.
 
