@@ -173,6 +173,8 @@ nav:
               - 2.2.4 ReleaseLogs: SoftwareIntroduction/ReleaseLogs.md
               - 2.2.5 PreviousVersions: SoftwareIntroduction/PreviousVersions.md
       - 3.Coding:
+          - 3Coding/31RealTimeMode/Coding/index.md
+      - 3.Coding:
           - 3.1 RealTime Mode:
               - 3Coding/31RealTimeMode/index.md
               - 3.1.1 Menu Bar: 3Coding/31RealTimeMode/311MenuBar.md
@@ -302,7 +304,7 @@ nav:
       - 3. Model:
           - FAQ/Model/index.md
           - How to Fix No module named model_mp_io Error: FAQ/Model/HowToFixNoModuleNamedModelMpIoError.md
-          - 'How to Fix pyenv: command not found Error': FAQ/Model/HowToFixPyenvCommandNotFoundError.md
+          - "How to Fix pyenv: command not found Error": FAQ/Model/HowToFixPyenvCommandNotFoundError.md
       - 4. View:
           - FAQ/View/index.md
       - 5. Extension:
