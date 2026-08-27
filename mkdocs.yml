@@ -227,8 +227,9 @@ nav:
               - 3.3.4 Functional Areas - Asset: 3Coding/33PythonBlockMode/334FunctionalAreasResourceFiles.md
               - 3.3.5 Extension Area: 3Coding/33PythonBlockMode/334ExtensionArea.md
               - 3.3.6 Programming Area: 3Coding/33PythonBlockMode/335ProgrammingArea.md
-              - 3.3.7 Code Display Area: 3Coding/33PythonBlockMode/336CodeDisplayArea.md
-              - 3.3.8 Terminal display area: 3Coding/33PythonBlockMode/337SerialMonitor.md
+              - 3.3.7 Packages: 3Coding/33PythonBlockMode/Packages.md
+              - 3.3.8 Code Display Area: 3Coding/33PythonBlockMode/336CodeDisplayArea.md
+              - 3.3.9 Terminal display area: 3Coding/33PythonBlockMode/337SerialMonitor.md
           - 3.4 MicroPython Block Mode:
               - 3Coding/34MicropythonBlockMode/index.md
               - 3.4.1 Menu Bar: 3Coding/34MicropythonBlockMode/341MenuBar.md

@@ -19,9 +19,9 @@ The interface can be divided into seven areas: the menu bar, settings, modules, 
 
 For a detailed description of each section's features, click here to jump to that section.
 
-| [Menu Bar](321MenuBar.md)                 | [Settings](322Settings.md)                 | [Functional Areas-Blocks](323FunctionalAreasBlocks/index.md) | [Extension Area](324ExtensionArea.md)                                   |
-| -------------------------------------- | --------------------------------------- | --------------------------------------------------------- | -------------------------------------------------------------------- |
-| [Programming Area](325ProgrammingArea.md) | [Code Display Area](326CodeDisplayArea.md) | [Serial Monitor](327SerialMonitor.md)                        | [BackPack](../31RealTimeMode/Coding/#2-general-features-block-backpack) |
+| [Menu Bar](321MenuBar.md)                      | [Settings](322Settings.md)                      | [Functional Areas-Blocks](323FunctionalAreasBlocks/index.md) | [Extension Area](324ExtensionArea.md)                                        |
+| ------------------------------------------- | -------------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------------- |
+| [**Programming Area**](325ProgrammingArea.md) | [**Code Display Area**](326CodeDisplayArea.md) | [**Serial Monitor**](327SerialMonitor.md)                   | [**BackPack**](../31RealTimeMode/Coding/#2-general-features-block-backpack) |
 
 Before we look at the upload interface, we need to understand two very important buttons: “Compile Only” and “Compile and Upload.” Located in the upper-left corner of the code display area, these buttons control the program’s compilation and upload process—a critical step before the program runs.
 

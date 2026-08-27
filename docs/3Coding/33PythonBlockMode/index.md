@@ -6,13 +6,13 @@ The Python Block mode is a programming approach designed for beginners learning 
 
 The interface can be divided into seven areas: the menu bar, settings, the ribbon, the extensions area, the programming area, the code display area, and the terminal display area.
 
-![image](./index.assets/pic_1781056019691.png)
+![image](./index.assets/pic_1787799755165.png)
 
 Next, we’ll take a closer look at these sections. For a detailed overview of each section’s features, click here:
 
-|            [Menu Bar](331MenuBar.md)            |             [Settings ](332Settings.md)             | [Functional Areas-Modules](333FunctionalAreas/index.md) | [Functional area-Asset](334FunctionalAreasResourceFiles.md) |
-| :-------------------------------------------: | :----------------------------------------------: | ---------------------------------------------------- | :------------------------------------------------------: |
-| [**Extensions area**](334ExtensionArea.md) | [**Programming area**](335ProgrammingArea.md) | [**code display area**](336CodeDisplayArea.md)    |   [**Terminal display area**](337SerialMonitor.md)   |
+| [Menu Bar](331MenuBar.md)                      | [Settings](332Settings.md) | [Functional Areas-Modules](333FunctionalAreas/index.md) | [Functional area-Asset](334FunctionalAreasResourceFiles.md) | [**Extensions area**](334ExtensionArea.md)                             |
+| ------------------------------------------- | ----------------------- | ---------------------------------------------------- | -------------------------------------------------------- | ------------------------------------------------------------------------- |
+| [**Programming area**](335ProgrammingArea.md) | **Packages**           | [**code display area**](336CodeDisplayArea.md)         | [**Terminal display area**](337SerialMonitor.md)           | [**BackPack**](../31RealTimeMode/Coding/#2-general-features-block-backpack) |
 
 ### Frequently Asked Questions
 

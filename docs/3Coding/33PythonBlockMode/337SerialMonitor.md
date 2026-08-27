@@ -1,4 +1,4 @@
-# 3.4.8 Terminal Display Area
+# 3.4.9 Terminal Display Area
 
 The terminal display area is used to show the output and debugging information generated while the program is running. When you run a Python block-based program, everything printed using the `print` statement will be displayed in real time in this area, helping you observe the program’s execution and verify that the logic is correct. In the terminal display area, you can:
 
