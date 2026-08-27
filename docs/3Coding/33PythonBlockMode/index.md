@@ -12,7 +12,7 @@ Next, we’ll take a closer look at these sections. For a detailed overview of e
 
 | [Menu Bar](331MenuBar.md)                      | [Settings](332Settings.md) | [Functional Areas-Modules](333FunctionalAreas/index.md) | [Functional area-Asset](334FunctionalAreasResourceFiles.md) | [**Extensions area**](334ExtensionArea.md)                             |
 | ------------------------------------------- | ----------------------- | ---------------------------------------------------- | -------------------------------------------------------- | ------------------------------------------------------------------------- |
-| [**Programming area**](335ProgrammingArea.md) | **Packages**           | [**code display area**](336CodeDisplayArea.md)         | [**Terminal display area**](337SerialMonitor.md)           | [**BackPack**](../31RealTimeMode/Coding/#2-general-features-block-backpack) |
+| [**Programming area**](335ProgrammingArea.md) | [**Packages**](Packages.md)           | [**code display area**](336CodeDisplayArea.md)         | [**Terminal display area**](337SerialMonitor.md)           | [**BackPack**](../31RealTimeMode/Coding/#2-general-features-block-backpack) |
 
 ### Frequently Asked Questions
 

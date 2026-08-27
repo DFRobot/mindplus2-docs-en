@@ -17,13 +17,13 @@ Once you enter MicroPython Block Mode, you will see the following interface.
 
 The interface can be divided into seven areas: the menu bar, settings, the ribbon, the extensions area, the programming area, the code display area, and the terminal display area.
 
-![image](./index.assets/pic_1781230907669.png)
+![image](./index.assets/pic_1787817991803.png)
 
 Next, we’ll take a closer look at these sections. For a detailed overview of each section’s features, click here:
 
-|            [Menu Bar](341MenuBar.md)            |             [Settings ](342Settings.md)             | [Functional Areas-Modules](343FunctionalAreas/index.md) |     [Functional area-Asset](344FunctionalAreasAsset.md)     |
-| :-------------------------------------------: | :----------------------------------------------: | ---------------------------------------------------- | :-------------------------------------------------------: |
-| [**Extensions area**](344ExtensionArea.md) | [**Programming area**](345ProgrammingArea.md) | [**code display area**](346CodeDisplayArea.md)    | [**Terminal display area**](347TerminalDisplayArea.md) |
+|           [Menu Bar](341MenuBar.md)           |           [Settings ](342Settings.md)           | [Functional Areas-Modules](343FunctionalAreas/index.md) |             [Functional area-Asset](344FunctionalAreasAsset.md)             | [Extensions area](344ExtensionArea.md) |
+| :-----------------------------------------: | :------------------------------------------: | ---------------------------------------------------- | :-----------------------------------------------------------------------: | :---------------------------------: |
+| [**Programming area**](345ProgrammingArea.md) | [**code display area**](346CodeDisplayArea.md) | [**Terminal display area**](347TerminalDisplayArea.md) | [**BackPack**](../31RealTimeMode/Coding/#2-general-features-block-backpack) |                                    |
 
 ### Frequently Asked Questions
 
