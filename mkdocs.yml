@@ -260,10 +260,11 @@ nav:
       - 4.Model:
           - 4.1 Basic Description:
               - 4.1.1 Introduction: AITools/Basic_description/introduction/introduction.md
-              - 4.1.2 Quick Experience: AITools/Basic_description/quick_start/quick-start.md
-              - 4.1.3 Model Training: AITools/Basic_description/model_training/model-training.md
-              - 4.1.4 Model Deploy: AITools/Basic_description/model_deployment/model-deployment.md
-              - 4.1.5 Real-time Result Push: AITools/Basic_description/real_time_push/real-time-push.md
+              - 4.1.2 Data Sampling and Sampling Device Guide: AITools/Basic_description/introduction/DataSamplingAndSamplingDeviceGuide.md
+              - 4.1.3 Quick Experience: AITools/Basic_description/quick_start/quick-start.md
+              - 4.1.4 Model Training: AITools/Basic_description/model_training/model-training.md
+              - 4.1.5 Model Deploy: AITools/Basic_description/model_deployment/model-deployment.md
+              - 4.1.6 Real-time Result Push: AITools/Basic_description/real_time_push/real-time-push.md
           - 4.2 Detailed Description:
               - 4.2.1 【Image Classification】 Quick Experience: AITools/Detailed_explanation/image_classification/quick_experience/quick-experience.md
               - 【Image Classification】 Advanced Mode: AITools/Detailed_explanation/image_classification/professional_mode/professional-mode.md

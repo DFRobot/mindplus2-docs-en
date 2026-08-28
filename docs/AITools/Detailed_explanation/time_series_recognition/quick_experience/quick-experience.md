@@ -1,15 +1,14 @@
-
 Taking the UNIHIKER K10 Motion Recognition case as an example, this Quick Experience guide demonstrates how to use time-series data from an accelerometer to perform pattern training and recognition. This case mainly showcases the practical application of temporal pattern recognition: the model can distinguish between different motions based on three-axis acceleration data and recognize real-time sensor inputs, helping users intuitively understand the fundamental principles and practical value of temporal pattern recognition.
 
 **Effect:**
 By collecting and training the accelerometer’s x, y, and z axis data, the model can recognize different motion patterns such as clapping, waving, and staying still. The recognition results will be displayed on the screen in the form of labels.
 
-###  Coding  
+### Coding
 
 #### **Step 1: Create a New Project**
 
 - Open Mind+, select “New Project” from the menu bar, then click “Coding”.
-  Choose “Upload Mode” and click to complete the project creation.  
+  Choose “Upload Mode” and click to complete the project creation.
 
 ![img](../img/1_quick_experience/1762137582669-fbab1861-1584-41ac-901c-febd3080ef4d.png)
 
@@ -25,8 +24,6 @@ By collecting and training the accelerometer’s x, y, and z axis data, the mode
   **Note:** Separate the output characters with commas (,) in English input mode.
 
 ![img](../img/1_quick_experience/1762138149517-9e4020ce-ac5f-4810-b0ee-453bacf4910d.png)
-
-
 
 #### Step 4: Upload the Program
 
@@ -61,16 +58,13 @@ By collecting and training the accelerometer’s x, y, and z axis data, the mode
 ![img](../img/1_quick_experience/1762139653765-789bba11-2a07-44ab-be05-0977e8ae0ad9.png)
 
 - After creating the categories, sample data can be added in the following two ways:
-
 - - **Collect:** Collect real-time data directly via the serial port.
   - **Upload:** Import prepared data files, supporting batch addition and management.
-
 - Using these two methods, users can efficiently and flexibly build a dataset, laying the foundation for model training.
 
 ![img](../img/1_quick_experience/1762141846684-73d6909d-a516-499f-896f-a4741d7785e5.png)
 
 - Sample Addition Method 1: Collect
-
 - - Click **Collect**, then in the serial port section, click **Get Serial Port**. In the pop-up **Select Serial Port Device** window, choose the serial debug unit.
 
 ![img](../img/1_quick_experience/1762142106089-217351ff-0c2d-435f-8e4d-cd7d40c4227a.png)
@@ -84,7 +78,6 @@ By collecting and training the accelerometer’s x, y, and z axis data, the mode
 ![img](../img/1_quick_experience/1762147460376-00aa56f0-d13f-4fc0-a9cf-17c6fffb00bb.png)
 
 - 样本添加方式2：上传
-
 - - 点击“添加类别”，新建另一类别（如“挥手”）→ 点击 “上传”，选择电脑本地csv数据批量导入。
 
 这种方式，适合有对应的csv文件，才能完成数据样本添加。
@@ -92,7 +85,6 @@ By collecting and training the accelerometer’s x, y, and z axis data, the mode
 提供简单的鼓掌、挥手、静止的csv文件供大家体验上传的操作。
 
 - Sample Addition Method 2: Upload
-
 - - Click **Add Class** to create a new class (e.g., “Wave”) → Click **Upload** and select local CSV files on your computer for batch import.
 
 ![img](../img/1_quick_experience/1762147845616-3c496695-f528-463e-83c4-f119283fe514.png)
@@ -107,12 +99,12 @@ Next, you can choose either of the above data addition methods to add sample dat
 
 - Before training the model, click **Advanced** to set training parameters such as Data Time Interval, epochs, batch size, and learning rate.
 
-| Parameter          | Description                                                  | Notes                                                      | Recommended Setting                         |
-| ------------------ | ------------------------------------------------------------ | ---------------------------------------------------------- | ------------------------------------------- |
-| Data Time Interval | The time interval between two sensor samples. Shorter intervals capture more details but generate more data. | Frequency of recording actions                             | 100 ms (default, can be adjusted as needed) |
+| Parameter          | Description                                                                                                                                                                                                                      | Notes                                                      | Recommended Setting                         |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------- |
+| Data Time Interval | The time interval between two sensor samples. Shorter intervals capture more details but generate more data.                                                                                                                     | Frequency of recording actions                             | 100 ms (default, can be adjusted as needed) |
 | Batch Size         | The number of data samples sent into the model for training at one time. Large datasets are split into batches to avoid computational overload. Example: default batch size is 16, meaning 16 images are used per training step. | How much content is learned at a time                      | 16 (default)                                |
-| Epochs             | One complete pass of all training data through the model is called an epoch. Multiple epochs are needed to solidify learning. Example: default is 100 epochs; small datasets can use fewer epochs. | How many times to learn the data                           | 100 (reduce for small datasets if needed)   |
-| Learning Rate      | Determines the size of the step taken when updating model parameters. Too large may overshoot the optimum, too small may learn too slowly. | Step size: too big may overshoot, too small slows learning | 0.005 (default)                             |
+| Epochs             | One complete pass of all training data through the model is called an epoch. Multiple epochs are needed to solidify learning. Example: default is 100 epochs; small datasets can use fewer epochs.                               | How many times to learn the data                           | 100 (reduce for small datasets if needed)   |
+| Learning Rate      | Determines the size of the step taken when updating model parameters. Too large may overshoot the optimum, too small may learn too slowly.                                                                                       | Step size: too big may overshoot, too small slows learning | 0.005 (default)                             |
 
 - After completing the training parameter settings, click **Train Model** to start training (if no settings are adjusted, the system default parameters will be used).
 
@@ -145,7 +137,6 @@ SIoT Tool Download Links:
 ##### Programming
 
 - Add the main board and extension libraries
-
 - - Create a new program to receive real-time results. Go to the homepage, and in **Coding**, select **Upload Mode**.
 
 ![img](../img/1_quick_experience/1762137582669-fbab1861-1584-41ac-901c-febd3080ef4d.png)
@@ -184,32 +175,40 @@ SIoT Tool Download Links:
 
 ##### Testing and Running
 
-| Real-Time Result Push                                        | UNIHIKER K10 Performance                                     |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Real-Time Result Push                                                                                                                                                        | UNIHIKER K10 Performance                                                                                                                                                     |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![img](../img/1_quick_experience/1762151406239-39473453-bd1e-4691-94b6-c796ce10f1f0.png) | ![img](../img/1_quick_experience/1762479485335-b9a1406f-e601-4f02-af0c-9a1de3fc287e.png) |
 | ![img](../img/1_quick_experience/1762151379039-d729eb2a-961b-4d26-a00f-cb98d5ca9c43.png) | ![img](../img/1_quick_experience/1762479518990-67e9eeaa-df1b-408c-8fe7-67d85772549e.png) |
 | ![img](../img/1_quick_experience/1762151389258-b65472c7-368e-4cde-a219-b8f65df1a162.png) | ![img](../img/1_quick_experience/1762479501817-fff144ef-ddcb-446d-a12d-69fa4e54e7e1.png) |
 
 #### Step 6: Model Deploy
 
--  Once the model validation results meet the requirements, you can proceed to deployment
-
+- Once the model validation results meet the requirements, you can proceed to deployment
 - - “Deploy” → Click “Export Model”.
   - The platform supports exporting the model in ONNX format, making it easy to use in other environments or for secondary development.
 
-Tip: ONNX is an open model format that can run across various deep learning frameworks and devices. This allows you not only to test on the platform but also to apply the model in real projects.  
+Tip: ONNX is an open model format that can run across various deep learning frameworks and devices. This allows you not only to test on the platform but also to apply the model in real projects.
 
 ![img](../img/1_quick_experience/1762151657199-31dc4e43-855d-4d4f-8998-132ad81bd03e.png)
 
-<!-- For instructions on model deployment and real-time result push, please refer to section [4.1.4 Model Deploy](https://www.yuque.com/joanna-rqvih/ilxuhv/aepmmgw4s77247vi) & [4.1.5Real-Time Result Push.](https://www.yuque.com/joanna-rqvih/ilxuhv/ph3e9rp4q7c7x1oe) -->
 
-## Common Issues in Model Training  
+#### Step 7: Model Deployment
 
-| Common Issue                       | Possible Cause                                               | Solution                                                     |
-| ---------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Insufficient sample data           | Too few samples collected for each action, making it difficult for the model to learn action features. | Collect at least 10–30 samples per action; more for complex actions. |
-| Inconsistent actions or high noise | Large differences in action amplitude, speed, or posture.    | Keep actions consistent during collection; minor variations are acceptable. |
-| Unreasonable sampling interval     | Interval too long misses action details; too short increases data volume and computational load. | Typically set around 100 ms; adjust based on action speed.   |
-| Low recognition accuracy           | Too few samples, noisy actions, or unclear features.         | Increase sample quantity, ensure standard actions, or adjust training parameters. |
-| Real-time recognition delay        | Low sampling rate, slow data transmission, or model inference speed. | Increase sampling rate, optimize the model or hardware performance. |
-| Large validation action error      | Actions performed during validation differ from training actions. | Keep validation actions consistent with training in amplitude and speed. |
+**Method 1:** Refer to[4.1.5 Model Deployment](../../../Basic_description/model_deployment/model-deployment.md)
+
+* **Applicable to:** Models that support hardware deployment (such as UNIHIKER M10/K10), including image classification, object detection, etc.
+
+**Method 2:** Refer to [4.1.6 Real-Time Result Push](../../../Basic_description/real_time_push/real-time-push.md)
+
+* **Applicable to:** Models that currently do not support direct hardware deployment, such as speech recognition, text classification, etc.
+
+## Common Issues in Model Training
+
+| Common Issue                       | Possible Cause                                                                                         | Solution                                                                          |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------- |
+| Insufficient sample data           | Too few samples collected for each action, making it difficult for the model to learn action features. | Collect at least 10–30 samples per action; more for complex actions.             |
+| Inconsistent actions or high noise | Large differences in action amplitude, speed, or posture.                                              | Keep actions consistent during collection; minor variations are acceptable.       |
+| Unreasonable sampling interval     | Interval too long misses action details; too short increases data volume and computational load.       | Typically set around 100 ms; adjust based on action speed.                        |
+| Low recognition accuracy           | Too few samples, noisy actions, or unclear features.                                                   | Increase sample quantity, ensure standard actions, or adjust training parameters. |
+| Real-time recognition delay        | Low sampling rate, slow data transmission, or model inference speed.                                   | Increase sampling rate, optimize the model or hardware performance.               |
+| Large validation action error      | Actions performed during validation differ from training actions.                                      | Keep validation actions consistent with training in amplitude and speed.          |

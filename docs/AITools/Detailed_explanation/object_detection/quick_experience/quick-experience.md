@@ -37,6 +37,22 @@ Adding samples is the foundation of model training. It’s essential to ensure *
 
 ![img](../img/1_quick_experience/1761806839209-61304e07-285d-40e3-8aa4-e418ae9e8d4f.png)
 
+Once categories are created, image samples can be added using several different methods.
+
+> 💡 **Tip: Diverse Sample Collection Methods**
+>
+> | Sampling Method                                    | Applicable Scenarios                              | Core Features / Advantages                                                                      |
+> | :------------------------------------------------- | :------------------------------------------------ | :---------------------------------------------------------------------------------------------- |
+> | **Webcam Capture**                           | Desktop experiments, basic teaching               | Plug-and-play; quickly capture real-time images.                                                |
+> | **Local Upload**                             | Offline annotation, large-scale datasets          | Supports batch importing and managing curated local image sets.                                 |
+> | **WebRTC Stream Capture (Wired / Wireless)** | Mobile robots, line-tracking robots, robotic arms | Supports FPV capture with hardware like HUSKYLENS 2, eliminating lens distortion discrepancies. |
+>
+> 👉 For a detailed comparison of sampling methods, please refer to: [**4.1.2 Data Sampling and Sampling Device Guide**](../../../../Basic_description/introduction/DataSamplingAndSamplingDeviceGuide).
+>
+> 👉 Users with a **HUSKYLENS 2** can click the link to view the **WebRTC Stream Transmission Instructions**.
+>
+> The following sections will focus on **Webcam Capture** and **Local Upload**.
+
 To ensure optimal training performance of the object detection model, please make sure your dataset samples meet the following requirements, including **the number of samples per category**, **object clarity**, **annotation completeness**, and **background lighting conditions**.
 
 | **Requirement Item**        | **Requirement**                              | **Description**                                                                                                                                                                     |
@@ -161,7 +177,16 @@ Although the data is sent to the SIoT platform in real time, it is not stored in
 
 ![img](../img/1_quick_experience/1761882505463-0bcf7b88-0c88-4e5c-a6c8-e0cd0abe6994.png)
 
-<!-- For instructions on model deployment and real-time result push, please refer to section [4.1.4 Model Deploy](https://www.yuque.com/joanna-rqvih/ilxuhv/aepmmgw4s77247vi) & [4.1.5Real-Time Result Push.](https://www.yuque.com/joanna-rqvih/ilxuhv/ph3e9rp4q7c7x1oe) -->
+
+### Step 6: Model Deployment
+
+**Method 1:** Refer to[4.1.5 Model Deployment](../../../Basic_description/model_deployment/model-deployment.md)
+
+* **Applicable to:** Models that support hardware deployment (such as UNIHIKER M10/K10), including image classification, object detection, etc.
+
+**Method 2:** Refer to [4.1.6 Real-Time Result Push](../../../Basic_description/real_time_push/real-time-push.md)
+
+* **Applicable to:** Models that currently do not support direct hardware deployment, such as speech recognition, text classification, etc.
 
 ## Common Issues in Model Training
 
