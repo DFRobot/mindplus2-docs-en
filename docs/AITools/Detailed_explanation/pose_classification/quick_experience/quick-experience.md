@@ -123,7 +123,7 @@ Tips for Data Samples:
 
 ![img](../img/1_quick_experience/1762492334037-ed00700d-5a2c-4f9f-9714-ff45a2706138.png)
 
-- - fter the image is successfully uploaded, the pose classification result of the image will be displayed.
+- - After the image is successfully uploaded, the pose classification result of the image will be displayed.
 
 ![img](../img/1_quick_experience/1762492633131-aea3e0b1-88bc-45d7-ab23-80f5b87c0e0b.png)
 

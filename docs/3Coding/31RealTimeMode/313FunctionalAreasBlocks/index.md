@@ -13,7 +13,7 @@ In realtime mode, the blocks in the module area are organized into nine categori
 
 Next, we will introduce each programming block by category. For detailed descriptions of each section, please click to jump to:
 
-|         [Motion](3131Motion.md)         | [Looks](3132Looks.md)                   | [Sound](3133Sounds)                    |
+|         [Motion](3131.md)         | [Looks](3132Looks.md)                   | [Sound](3133Sounds.md)                    |
 | :----------------------------------: | ------------------------------------ | ----------------------------------- |
 |    [**Events**](3134Events.md)    | [**Control**](3135Control.md)     | [**Sensing**](3136Sensing.md)    |
 | [**Operators**](3137Operators.md) | [**Variables**](3138Variables.md) | [**My Blocks**](3139MyBlocks.md) |

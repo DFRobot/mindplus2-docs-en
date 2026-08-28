@@ -1,9 +1,9 @@
-# What should I do if I get a K10 character quotation mark error?
+# What should I do if I get a UNIHIKER K10 character quotation mark error?
 
 
 ## Problem Description
 
-The following error occurred while programming using the UINIHIKER K10:
+The following error occurred while programming using the UNIHIKER K10:
 
 * error: stray '\350' in program
 * Text displayed without quotation marks
@@ -13,14 +13,14 @@ The following error occurred while programming using the UINIHIKER K10:
 
 ## Analysis of Causes
 
-The Mind+ 2.1.0 software changed the logic of the quotation mark input field, causing K10 (version 0.0.1) to fail to generate quotation marks.
+The Mind+ 2.1.0 software changed the logic of the quotation mark input field, causing UNIHIKER K10 (version 0.0.1) to fail to generate quotation marks.
 
 
 ## Solution
 
 1. Click the "Extensions" panel in the lower-right corner of the Mind+ interface
-1. Find the K10 Mainboard Expansion
+1. Find the UNIHIKER K10 Mainboard Expansion
 
-1. Update the K10 controller to version 0.0.2 or later. See the figure below.
+1. Update the UNIHIKER K10 controller to version 0.0.2 or later. See the figure below.
 
 ![image](./WhatShouldIDoIfIGetAK10CharacterQuotationMarkError.assets/pic_1782202414339.png)

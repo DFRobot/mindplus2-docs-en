@@ -18,7 +18,7 @@ The interface can be divided into seven areas: the menu bar, settings, the funct
 
 Next, we’ll take a closer look at these seven areas. For a detailed overview of each area’s features, click here:
 
-|                    [Menu Bar](311MenuBar.md)                    | [Settings](312Settings.md)                                              | [Functional Areas-Blocks](313FunctionalAreasBlocks/index.md) | [Functional area-Costumes](313FunctionalAreaCostumes.md) |
+|                    [Menu Bar](311MenuBar.md)                    | [Settings](312Settings.md)                                              | [Functional Areas-Blocks](313FunctionalAreasBlocks/index.md) | [Functional area-Costumes](314FunctionalAreaCostumes.md) |
 | :----------------------------------------------------------: | -------------------------------------------------------------------- | --------------------------------------------------------- | ----------------------------------------------------- |
 |         [Function Area-Sounds](315FunctionAreaSound.md)         | [Extension Area](316ExtensionArea.md)                                   | [Programming Area](317ProgrammingArea.md)                    | [Stage Area](318StageArea.md)                            |
 | [Sprite and background area](319CharactersAndBackgroundArea.md) | [BackPack](../31RealTimeMode/Coding/#2-general-features-block-backpack) |                                                           |                                                       |

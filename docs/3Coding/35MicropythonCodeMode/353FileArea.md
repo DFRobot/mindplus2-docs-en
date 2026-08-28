@@ -21,7 +21,7 @@ The term "project file" has different definitions in MicroPython's block-based m
 
 ## 2. Board files
 
-Board files are stored directly in the file system of the connected control board (such as the UNIHIKER K10, Zhan Kong Board, or ESP32). These are program files that are read and executed immediately after the device powers on, such as `boot.py`the (startup script) and `main.py`(main program).You must upload the project files to the device for them to appear here; the device can then run these programs independently even when disconnected from the computer.
+Board files are stored directly in the file system of the connected control board (such as the UNIHIKER K10, Zhankong Board, or ESP32). These are program files that are read and executed immediately after the device powers on, such as `boot.py`the (startup script) and `main.py`(main program).You must upload the project files to the device for them to appear here; the device can then run these programs independently even when disconnected from the computer.
 
 ![image](./353FileArea.assets/pic_1781255002327.png)
 
@@ -29,7 +29,7 @@ Key Differences Between Project Files and Mainboard Files.
 
 | Comparison items | Project Documents                                                              | Motherboard Documentation                                                                                         |
 | ---------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- |
-| Storage location | Saved locally on your computer as your project files.                          | Save directly to the file system on the main control board (Xingkong K10 / Control Board / ESP32.                 |
+| Storage location | Saved locally on your computer as your project files.                          | Save directly to the file system on the main control board (UNIHIKER K10 / Control Board / ESP32.                 |
 | Function         | Edit, save, and manage your local code projects—it’s like your “notebook.” | Directly managing the runtime files on the device is equivalent to the device’s “program memory.”              |
 | Sample Documents | `.py`The code files and project configuration files you created.             | `.py`The code files and project configuration files you created.                                                |
 | How to Use       | New, Open, Save, Save As—just like with regular computer files.               | You must connect to a device to use this feature; you can create, edit, and refresh files directly on the device. |

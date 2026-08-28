@@ -1,6 +1,6 @@
 # 【Temporal Pattern Recognition】 Advanced Mode
 
-This project takes **“K10 Acceleration-Based Motion Recognition”** as an example to demonstrate how to perform temporal pattern recognition in **Advanced Mode**. Through this case, users will not only learn the complete workflow — including **data setup, data annotation, and model training** — but also gain experience with the advanced features available in this mode.
+This project takes **“UNIHIKER K10 Acceleration-Based Motion Recognition”** as an example to demonstrate how to perform temporal pattern recognition in **Advanced Mode**. Through this case, users will not only learn the complete workflow — including **data setup, data annotation, and model training** — but also gain experience with the advanced features available in this mode.
 
 After the model training is completed, the system can analyze and recognize real-time acceleration sensor data, enabling **classification and prediction of different motion patterns**.
 
@@ -10,7 +10,7 @@ For this project, which aims to detect **three motion types (clapping, waving, a
 - **Labeled temporal dataset:** for model training and validation.
 - **Unlabeled temporal dataset:** for exploring the detailed workflow of Advanced Mode.
 
-This tutorial mainly uses **UNIHIKER K10** as an example to demonstrate how to utilize the acceleration sensor for temporal pattern recognition — from data collection to practical application. However, the same process can also be applied to other microcontrollers equipped with sensors and serial communication capabilities, such as **UNIHIKER M10**, **micro:bit**, or **zhangkongban**.
+This tutorial mainly uses **UNIHIKER K10** as an example to demonstrate how to utilize the acceleration sensor for temporal pattern recognition — from data collection to practical application. However, the same process can also be applied to other microcontrollers equipped with sensors and serial communication capabilities, such as **UNIHIKER M10**, **micro:bit**, or **Zhankong Board**.
 
 **Result:**
 The trained model can recognize different motion patterns — such as **Applausing**, **waving**, and **stillness** — based on the **x, y, and z-axis acceleration data** collected from the UNIHIKER K10 sensor.
@@ -27,7 +27,7 @@ The trained model can recognize different motion patterns — such as **Applausi
 
 ## Data Settings
 
-- Switch to **“Data Settings”** → click the **“Create Dataset”** button in the upper-left corner, and create a dataset named **“K10 Motion Recognition”** as an example.
+- Switch to **“Data Settings”** → click the **“Create Dataset”** button in the upper-left corner, and create a dataset named **“UNIHIKER K10 Motion Recognition”** as an example.
 
 ![img](../img/2_professional_mode/1762155559226-b22f9933-3569-4243-9b8e-2cd5a0bd28aa.png)
 
@@ -88,9 +88,9 @@ Note: The default dataset cannot be deleted.
 ![img](../img/2_professional_mode/1762159293691-ff4c4c58-0da6-4101-8785-de283086f6ab.png)
 
 - Click **Create Training Task**, and in the pop-up window, configure the following settings:
-- - **Name:** K10 Motion Recognition Model (customize as needed)
+- - **Name:** UNIHIKER K10 Motion Recognition Model (customize as needed)
   - **Device:** Select the corresponding main board (**UNIHIKER K10**)
-  - **Dataset:** K10 Motion Recognition (In **Data Settings**, we have created and named the dataset “K10 Motion Recognition”; in **Annotation Settings**, the temporal data labeling and organization are complete. The dataset now has the full structure required for model training. In the next stage, the system will learn temporal features from this dataset, enabling action recognition based on acceleration values. Therefore, select the **K10 Motion Recognition** dataset here.)
+  - **Dataset:** UNIHIKER K10 Motion Recognition (In **Data Settings**, we have created and named the dataset “UNIHIKER K10 Motion Recognition”; in **Annotation Settings**, the temporal data labeling and organization are complete. The dataset now has the full structure required for model training. In the next stage, the system will learn temporal features from this dataset, enabling action recognition based on acceleration values. Therefore, select the **UNIHIKER K10 Motion Recognition** dataset here.)
   - **Training Set Ratio:** Choose according to your needs (or keep the default).
 
 | **Training Task Parameter** | **Purpose**                                                                           | **Description**                                                                                                                   |
@@ -131,7 +131,7 @@ Note: The default dataset cannot be deleted.
 
 ## Model Validation
 
-- Switch to the **Model Validation** module, select the training project **K10 Motion Recognition**, and choose the model **model.pt**.
+- Switch to the **Model Validation** module, select the training project **UNIHIKER K10 Motion Recognition**, and choose the model **model.pt**.
 
 ![img](../img/2_professional_mode/1762161094400-af553ebd-161c-4e2f-b25a-f8689b4d3d50.png)
 

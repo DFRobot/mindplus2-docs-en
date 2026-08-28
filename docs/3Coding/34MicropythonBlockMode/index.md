@@ -7,7 +7,7 @@ MicroPython is a lightweight version of Python designed specifically for embedde
 ## Features
 
 * **Combining Visualization with Code**: Each block in the block-based mode corresponds to Python code, which users can view and understand at any time.
-* **Wide hardware support**: Supports Mind+ control boards (such as the K10 and Control Board) and their expansion modules, including sensors, servos, motors, displays, and more.
+* **Wide hardware support**: Supports Mind+ control boards (such as the UNIHIKER K10 and Control Board) and their expansion modules, including sensors, servos, motors, displays, and more.
 * **Modular blocks**: The blocks are grouped by function and cover common programming features such as control, operators, numbers, text, variables, functions, and advanced types.
 * **Low learning curve**: Even users with no programming background can create programs by dragging and dropping blocks, while gradually gaining an understanding of Python syntax and logical structures.
 

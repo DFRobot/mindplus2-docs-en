@@ -73,7 +73,7 @@ If you are connected to the internet, the required dependencies will be automati
 
 ## How to Use the Model Training and Inference Library with UNIHIKER M10
 
-The UNIHIKER M10 (system version 0.4.1) comes with a preconfigured and optimized Python environment capable of running this library. If you wish to use this library with theUNIHIKER M10, please follow the tutorial below to load the library.
+The UNIHIKER M10 (system version 0.4.1) comes with a preconfigured and optimized Python environment capable of running this library. If you wish to use this library with the UNIHIKER M10, please follow the tutorial below to load the library.
 
 For instructions on how to check the UNIHIKER M10 system version and update the firmware, see the [FAQ](#frequently-asked-questions) at the end of this document.
 
@@ -93,7 +93,7 @@ Return to the programming page, select "Default-10.1.2.3" from the terminal conn
 
 ![image](./ModelTrainingAndInferenceLibrary.assets/pic_1782116440532.png)
 
-In the terminal, type: `python --version`, then press Enter to check the Python version on the M10 board. See the image below.
+In the terminal, type: `python --version`, then press Enter to check the Python version on the UNIHIKER M10 board. See the image below.
 
 ![](https://mindplus.dfrobot.com.cn/mp2/python-block-ext-docs/docs/extensions/ext-DFRobot-aiInference/readme.assets/1768529779074-f344b4d1-d0fd-4eea-8ef8-f56bc2193b97.png)
 
@@ -261,7 +261,7 @@ You can find the saved images of the extracted flower outlines in the correspond
 
 ![img](https://mindplus.dfrobot.com.cn/mp2/python-block-ext-docs/docs/extensions/ext-DFRobot-aiInference/readme.assets/1768554344586-e032de48-ad60-4d51-8658-27885018c5b4.png)
 
-### Timeporal Pattern Recognition Projects
+### Temporal Pattern Recognition Projects
 
 ## Hardware Preparation
 
@@ -293,7 +293,7 @@ To use an temporal pattern recognition model, you need to upload the model files
 
 ### Runtime Results
 
-fter the program has finished uploading, press and hold the A button on the UNIHIKER M10 with one hand while performing a clapping or tapping gesture. Maintain the gesture for approximately 5 to 10 seconds. Then release the A button. Observe the recognized action label, category ID, and corresponding confidence score displayed on the screen. Repeat the above steps to perform a new round of action recognition.
+After the program has finished uploading, press and hold the A button on the UNIHIKER M10 with one hand while performing a clapping or tapping gesture. Maintain the gesture for approximately 5 to 10 seconds. Then release the A button. Observe the recognized action label, category ID, and corresponding confidence score displayed on the screen. Repeat the above steps to perform a new round of action recognition.
 
 ![image](./ModelTrainingAndInferenceLibrary.assets/pic_1782294157485.gif)
 
@@ -368,7 +368,7 @@ fter the program has finished uploading, press and hold the A button on the UNIH
 | - | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | A | Time-series pattern recognition refers to the use of models to analyze a continuous sequence of time-series data and identify the actions, behaviors, or patterns of change contained within it. Rather than focusing on individual data values, the model comprehensively assesses the overall characteristics of data changes over a period of time to perform recognition and classification. Time-series data refers to data collected continuously in chronological order. Unlike a single image or a single input, time-series data reflects the process of how data changes over time.<br />For example, the X, Y, and Z-axis data continuously collected by the UNIHIKER K10 accelerometer over a period of time constitute a time-series data set.                                                                                                                                                                                                                                                                                                         |
 | Q | The trained temporal pattern recognition model is not performing well and has a low accuracy rate. How can we improve it?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| A | You can try optimizing in the following areas:<br />(1) Increase the number of training samples and retrain the model. When collecting training data, appropriately extend the duration of each data collection session to capture more complete and stable time-series features.<br />(2) When applying the model, ensure that the data input method remains consistent with that used during the training phase. For example, when conducting a project on time-series pattern recognition using accelerometers, ensure that the orientation of the K10 board is consistent and that the range of motion and execution method are uniform.<br />(3) In practical applications, appropriately extend the input duration for time-series data of the same type. For example, when working on a project involving time-series pattern recognition for accelerometers, repeat the same action for 5–10 seconds to ensure that the model has access to sufficient continuous time-series data during inference, thereby improving recognition stability and accuracy. |
+| A | You can try optimizing in the following areas:<br />(1) Increase the number of training samples and retrain the model. When collecting training data, appropriately extend the duration of each data collection session to capture more complete and stable time-series features.<br />(2) When applying the model, ensure that the data input method remains consistent with that used during the training phase. For example, when conducting a project on time-series pattern recognition using accelerometers, ensure that the orientation of the UNIHIKER K10 board is consistent and that the range of motion and execution method are uniform.<br />(3) In practical applications, appropriately extend the input duration for time-series data of the same type. For example, when working on a project involving time-series pattern recognition for accelerometers, repeat the same action for 5–10 seconds to ensure that the model has access to sufficient continuous time-series data during inference, thereby improving recognition stability and accuracy. |
 
 # Recommended Community Projects
 
