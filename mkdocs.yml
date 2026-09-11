@@ -152,7 +152,8 @@ markdown_extensions:
   # - markdown.extensions.meta
   - attr_list 
   - md_in_html 
-
+  - pymdownx.quotes:
+      callouts: true
 extra_css:
   - stylesheets/extra.css
 
