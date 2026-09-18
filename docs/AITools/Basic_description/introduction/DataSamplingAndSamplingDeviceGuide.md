@@ -82,7 +82,7 @@ The following sample collection methods are supported:
 
 #### Step 1: Enable WebRTC Video Streaming
 
-* Connect HUSKYLENS 2 to the PC using a USB cable. Swipe on the HUSKYLENS 2 screen to locate **Live Video Transmission** (if not found, please [Update Firmware](https://wiki.dfrobot.com.cn/#7.%E5%9B%BA%E4%BB%B6%E6%9B%B4%E6%96%B0) first). Under Live Video Transmission, turn on the **WebRTC Transmission** switch and tap confirm.
+* Connect HUSKYLENS 2 to the PC using a USB cable. Swipe on the HUSKYLENS 2 screen to locate **Live Video Transmission** (if not found, please [Update Firmware](https://wiki.dfrobot.com/sen0638/docs/22673) first). Under Live Video Transmission, turn on the **WebRTC Transmission** switch and tap confirm.
 
 ![image](./DataSamplingAndSamplingDeviceGuide.assets/pic_1787881838665.png)
 
@@ -121,8 +121,8 @@ The following sample collection methods are supported:
 
 #### Step 1: Enable WebRTC Video Streaming
 
-* Ensure you are using the [HUSKYLENS 2 Wi-Fi Module](https://www.dfrobot.com.cn/goods-4251.html "HUSKYLENS 2 Wi-Fi Module") and have successfully connected to a Wi-Fi network in Settings.
-* Power HUSKYLENS 2 via USB cable. Swipe on the screen to find **Live Video Transmission** (if not found, please [Update Firmware](https://wiki.dfrobot.com.cn/#7.%E5%9B%BA%E4%BB%B6%E6%9B%B4%E6%96%B0) first). Turn on the **WebRTC Transmission** switch and tap confirm.
+* Ensure you are using the [HUSKYLENS 2 Wi-Fi Module](https://www.dfrobot.com/product-3011.html "HUSKYLENS 2 Wi-Fi Module") and have successfully connected to a Wi-Fi network in Settings.
+* Power HUSKYLENS 2 via USB cable. Swipe on the screen to find **Live Video Transmission** (if not found, please [Update Firmware](https://wiki.dfrobot.com/sen0638/docs/22673) first). Turn on the **WebRTC Transmission** switch and tap confirm.
 
 ![image](./DataSamplingAndSamplingDeviceGuide.assets/pic_1787883613582.png)
 
