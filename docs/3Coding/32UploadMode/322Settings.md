@@ -6,7 +6,7 @@ The Settings interface contains the software's global settings. Click the "Setti
 
 ## 1. Language
 
-Supports 20 different languages, selectable by the user, to meet a wide range of user needs.
+Supports 23 different languages, selectable by the user, to meet a wide range of user needs.
 
 ![image](../31RealTimeMode/312Settings.assets/pic_1787727468173.png)
 
@@ -52,6 +52,6 @@ Data Cleanup in programming modes is primarily used to clear the local cache dat
 
 * All cleanup operations only take effect on the currently opened programming mode; data across different modes is independent and will not interfere with each other.
 * Clearing the cache will not delete user-saved project files.
-* Be cautious when selecting 【Backpack Cache】.
+* Be cautious when selecting [Backpack Cache].
 
 ![image](../31RealTimeMode/312Settings.assets/pic_1787727646086.png)

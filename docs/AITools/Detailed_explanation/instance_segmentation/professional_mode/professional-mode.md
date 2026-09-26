@@ -1,4 +1,4 @@
-# 【Instance Segmentation】 Advanced Mode
+# Instance Segmentation: Advanced Mode
 
 This project uses **“Fruit Recognition”** as a case study to guide users through an **Instance Segmentation** task in **Advanced Mode**. Through this example, users can not only learn the basic workflow (data setup, data annotation, model training) but also explore advanced features in Advanced Mode, such as customizing training parameters, observing training curves, and adjusting data augmentation strategies. This allows users to gain fine-grained control over the training process and continuously optimize model performance.
 
@@ -28,7 +28,7 @@ Note: The default dataset cannot be deleted.
 
 - Next, perform the “Import Data” operation for the newly created Fruit Recognition dataset. The system supports two import methods: **Labeled Data** and **Unlabeled Data**.
 - Import Method 1: Unlabeled Data
-- - Suitable for uploading only raw images (e.g., images containing a mix of apples, pears, and bananas, with at least 20 images per category).
+    - Suitable for uploading only raw images (e.g., images containing a mix of apples, pears, and bananas, with at least 20 images per category).
 
 **Steps:**
 
@@ -40,8 +40,8 @@ Note: The default dataset cannot be deleted.
 ![img](../img/2_professional_mode/1761815725820-450f58fb-692d-4900-877a-cbd3cbe994dc.png)
 
 - Import Method 2: **With Annotations**
-- - Directly upload YOLO-formatted annotated data (.zip file).
-  - Organize the folder structure according to platform requirements. After uploading, manual annotation is not needed, and the system will directly proceed to model training.
+    - Directly upload YOLO-formatted annotated data (.zip file).
+    - Organize the folder structure according to platform requirements. After uploading, manual annotation is not needed, and the system will directly proceed to model training.
 
 ![img](../img/2_professional_mode/1761815761165-d768f1b4-36be-41ec-a18b-97d772d62a79.png)
 
@@ -97,8 +97,8 @@ Note: The default dataset cannot be deleted.
 ![img](../img/2_professional_mode/1761818431006-4130c614-d220-4bce-807b-cae677af5e9a.png)
 
 - After the model training task is successfully created, click **Config Params** to enter the training parameter configuration interface. You can adjust the parameters according to your needs, or start training directly with the default settings.
-- - **Basic Parameters**: Image size, Batch size, Epochs.
-  - **Advanced Parameters**: Save Period, Vertical Flip Probability, fliplr, Optimizer, etc.
+    - **Basic Parameters**: Image size, Batch size, Epochs.
+    - **Advanced Parameters**: Save Period, Vertical Flip Probability, fliplr, Optimizer, etc.
 
 | **Advanced Parameter** | **Description**                                                                                                                                                                       | **Explanation**                                                                                                                        |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -113,9 +113,9 @@ Note: The default dataset cannot be deleted.
 ![img](../img/2_professional_mode/1761819092270-c6663cee-6a05-4483-b80e-240706468ce3.png)
 
 - During model training, you can view relevant data through the **Training Monitoring** window.
-- - **Training Loss (train loss):** The prediction error of the model on the training data. Lower loss indicates the model predicts the training data more accurately.
-  - **Validation Loss (val loss):** The prediction error on the validation data (data not used for training). A consistently decreasing validation loss indicates improved model generalization.
-  - **Validation mAP50 (Val mAP50):** Indicates the accuracy on the validation set where a prediction is considered correct only if the predicted box overlaps with the ground truth box by more than 50%. Higher values indicate better detection accuracy.
+    - **Training Loss (train loss):** The prediction error of the model on the training data. Lower loss indicates the model predicts the training data more accurately.
+    - **Validation Loss (val loss):** The prediction error on the validation data (data not used for training). A consistently decreasing validation loss indicates improved model generalization.
+    - **Validation mAP50 (Val mAP50):** Indicates the accuracy on the validation set where a prediction is considered correct only if the predicted box overlaps with the ground truth box by more than 50%. Higher values indicate better detection accuracy.
 - After the model training is completed, you can delete, export, or view result of the trained model from the operation bar.
 
 ![img](../img/2_professional_mode/1761874714851-f354380e-b8f7-495a-b211-2f428d4be05b.png)
@@ -132,7 +132,7 @@ Note: The default dataset cannot be deleted.
 ![img](../img/2_professional_mode/1761874908342-99d44d04-7604-430f-9d2a-c82d34dd3550.png)
 
 - **Model Validation** supports two methods: **Camera Real-Time Test** and **Single Image Test**.
-- - **Camera Real-Time Test**: Recognize fruits in real time through the camera, and generate masks to cover the contours of the identified fruits, visually displaying the segmentation results.
+    - **Camera Real-Time Test**: Recognize fruits in real time through the camera, and generate masks to cover the contours of the identified fruits, visually displaying the segmentation results.
 
 ![img](../img/2_professional_mode/1761875653049-2a919446-93f8-4e2e-88ac-99592ddab764.png)
 
@@ -151,7 +151,7 @@ If you are not satisfied with the model’s performance, you can go to the **Mod
 
 ### Model Deployment
 
-**Method 1:** Refer to[4.1.5 Model Deployment](../../../Basic_description/model_deployment/model-deployment.md)
+**Method 1:** Refer to [4.1.5 Model Deployment](../../../Basic_description/model_deployment/model-deployment.md)
 
 * **Applicable to:** Models that support hardware deployment (such as UNIHIKER M10/K10), including image classification, object detection, etc.
 

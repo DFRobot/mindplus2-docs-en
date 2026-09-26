@@ -1,4 +1,4 @@
-# 【Image Classification】 Advanced Mode
+# Image Classification: Advanced Mode
 
 This project uses **“Traffic Sign Recognition”** as a case study to guide users in completing an **image classification** task in **Advanced Mode**. Through this case, users can not only master the basic workflow (data setup, data labeling, model training) but also explore advanced features in **Advanced Mode**, such as customizing training parameters, monitoring training curves, and adjusting data augmentation strategies. This allows finer control over the training process and helps improve model performance.
 
@@ -31,14 +31,14 @@ Note: The default dataset cannot be deleted.
 
 - Next, perform the **Import Data** operation for the newly created Traffic Sign Recognition dataset. The system supports two import methods: **with annotations** and **No annotations**.
 - Import Method 1: **No annotations**
-- - Suitable for uploading only raw images (e.g., images containing mixed traffic signs such as straight, left turn, right turn, with at least 20 images per category).
-  - **Steps:** Select No annotations as the import type → Click Click to Upload → Choose images from the local computer → Click Confirm to complete the import.
+    - Suitable for uploading only raw images (e.g., images containing mixed traffic signs such as straight, left turn, right turn, with at least 20 images per category).
+    - **Steps:** Select No annotations as the import type → Click Click to Upload → Choose images from the local computer → Click Confirm to complete the import.
 
 ![img](../img/2_professional_mode/1761731442805-6d0f125f-ee96-40ff-b14f-03fe9bee9bb6.png)
 
 - Import Method 2: **With Annotations**
-- - Directly upload YOLO-formatted annotated data (.zip file).
-  - Organize the folder structure according to platform requirements. After uploading, manual annotation is not needed, and the system will directly proceed to model training.
+    - Directly upload YOLO-formatted annotated data (.zip file).
+    - Organize the folder structure according to platform requirements. After uploading, manual annotation is not needed, and the system will directly proceed to model training.
 
 ### Annotation Settings
 
@@ -55,7 +55,7 @@ Note: The default dataset cannot be deleted.
 ![img](../img/2_professional_mode/1761788712286-7b17d0e4-acf8-4d77-960a-e43b69db2ba2.png)
 
 - **Next, annotate each image in the image area on the far right of the interface:**
-- - Left-turn sign → click the “Left” label
+    - Left-turn sign → click the “Left” label
     Right-turn sign → click the “Right” label
     Straight sign → click the “Straight” label
 
@@ -71,7 +71,7 @@ After labeling, a blue √ will appear at the bottom-right corner of the image, 
 ![img](../img/2_professional_mode/1761817884483-bae5505e-0be0-4e06-8d61-37c80cc75654.png)
 
 - Click **“Create Project”**, and in the pop-up window, set the following:
-- - **Name**: Traffic Sign Recognition Model (rename as needed)
+    - **Name**: Traffic Sign Recognition Model (rename as needed)
     **Model**: Select according to your needs (default is also fine)
     **Training Method**: Select according to your needs (default is also fine)
     **Dataset**: Traffic Sign Recognition (in **Data Settings**, we have already created and named the dataset “Traffic Sign Recognition”; in **Annotation Settings**, all images have been annotated and organized. At this point, the data has the complete structure required for training. Next, the system will extract features and learn patterns from this dataset, gradually enabling classification and recognition of traffic signs. Therefore, the dataset must be set to Traffic Sign Recognition.)
@@ -88,8 +88,8 @@ After labeling, a blue √ will appear at the bottom-right corner of the image, 
 ![img](../img/2_professional_mode/1761795320455-dddb565a-aa5d-4b81-8090-289c9766ec8d.png)
 
 - After the model training task is successfully created, click **Config Params** to enter the training parameter configuration interface. You can adjust the parameters according to your needs, or start training directly with the default settings.
-- - **Basic Parameters**: Image size, Batch size, Epochs.
-  - **Advanced Parameters**: **Advanced Parameters**: Save Period, Vertical Flip Probability, fliplr, Optimizer, etc.
+    - **Basic Parameters**: Image size, Batch size, Epochs.
+    - **Advanced Parameters**: **Advanced Parameters**: Save Period, Vertical Flip Probability, fliplr, Optimizer, etc.
 
 | Advanced Parameter        | Description                                                                                                                                                                                 | Explanation                                                                                                                                                                                                                                                         |  |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | - |
@@ -119,7 +119,7 @@ After labeling, a blue √ will appear at the bottom-right corner of the image, 
 ![img](../img/2_professional_mode/1761802714185-cda69dcc-e782-44bd-a69a-e93a40d3bdb1.png)
 
 - Model validation supports two methods: real-time camera testing and single image testing.
-- - **Real-time Camera Testing**: Recognizes traffic signs in real time through the camera.
+    - **Real-time Camera Testing**: Recognizes traffic signs in real time through the camera.
 
 ![img](../img/2_professional_mode/1761803759326-270f90cc-9079-4403-b52d-79846e6db99e.png)
 
@@ -138,7 +138,7 @@ If you are not satisfied with the model’s performance, you can go to the **Mod
 
 ### Model Deployment
 
-**Method 1:** Refer to[4.1.5 Model Deployment](../../../Basic_description/model_deployment/model-deployment.md)
+**Method 1:** Refer to [4.1.5 Model Deployment](../../../Basic_description/model_deployment/model-deployment.md)
 
 * **Applicable to:** Models that support hardware deployment (such as UNIHIKER M10/K10), including image classification, object detection, etc.
 

@@ -32,8 +32,8 @@ Adding samples is the foundation of model training. It’s essential to ensure *
 **Add Image Sample:**
 
 - Within the current dataset, you can add image samples using **two methods**:
-- - **Camera Capture:** Suitable for real-time data collection, allowing you to quickly capture live images during experiments.
-  - **Local Upload:** Ideal for importing pre-prepared sample materials, making it easy to batch add and manage existing data.
+    - **Camera Capture:** Suitable for real-time data collection, allowing you to quickly capture live images during experiments.
+    - **Local Upload:** Ideal for importing pre-prepared sample materials, making it easy to batch add and manage existing data.
 
 ![img](../img/1_quick_experience/1761806839209-61304e07-285d-40e3-8aa4-e418ae9e8d4f.png)
 
@@ -83,39 +83,39 @@ Note: If the FPS is too high, the captured images will have minimal differences,
 
 Local upload can be divided into Unlabeled Data and **Labeled Data**:
 
-- - **Unlabeled Data:** Only upload image samples. Targets in the images need to be Labeled manually later. This is suitable for learning the workflow in this example.
-  - **Labeled Data:** Image samples are already Labeled and corresponding masks are generated. These can be used directly for model training without additional annotation.
+- **Unlabeled Data:** Only upload image samples. Targets in the images need to be Labeled manually later. This is suitable for learning the workflow in this example.
+    - **Labeled Data:** Image samples are already Labeled and corresponding masks are generated. These can be used directly for model training without additional annotation.
 
 **Upload – Unlabeled Data:**
 
-- - Click the **Upload** button, select Unlabeled Data under **Import Data Type**, then click **Select File Upload**.
-  - In your local folder, find the prepared image samples, select all, and upload them to the dataset. This completes the addition of Unlabeled Data.
+- Click the **Upload** button, select Unlabeled Data under **Import Data Type**, then click **Select File Upload**.
+    - In your local folder, find the prepared image samples, select all, and upload them to the dataset. This completes the addition of Unlabeled Data.
 
 ![img](../img/1_quick_experience/1761878642769-90abbb5b-d232-484f-8b31-c0b6c271e1cf.png)
 
 - **Sample Annotation Procedure (for Unlabeled Data)**
-- - Step 1: Create Labels. Click the **"Data Annotate"** button on the interface. In the pop-up **"Create Label"** window, enter the names of the target categories in order (e.g., "zebra", "rhino", "elephant") and select a label color (to help distinguish different categories). Click **"Confirm"** to complete the label creation.
+    - Step 1: Create Labels. Click the **"Data Annotate"** button on the interface. In the pop-up **"Create Label"** window, enter the names of the target categories in order (e.g., "zebra", "rhino", "elephant") and select a label color (to help distinguish different categories). Click **"Confirm"** to complete the label creation.
 
 ![img](../img/1_quick_experience/1761879593544-07ac0be2-9ad6-4a3e-9a36-1e226bec885b.png)
 
-- - Step 2: Draw Bounding Boxes. During annotation, first click the corresponding label name in the label list on the left (e.g., "zebra"), then use the left mouse button to draw a rectangular bounding box along the edges of the target in the image, ensuring the box fully encloses the target. If an image contains multiple targets (e.g., both a zebra and a rhino), repeat the "Select Label → Draw Bounding Box" steps until all targets are annotated.
-  - Manually mark targets using the mouse:
-- - - Move the mouse and click the left button at the vertices of the target object.
+- Step 2: Draw Bounding Boxes. During annotation, first click the corresponding label name in the label list on the left (e.g., "zebra"), then use the left mouse button to draw a rectangular bounding box along the edges of the target in the image, ensuring the box fully encloses the target. If an image contains multiple targets (e.g., both a zebra and a rhino), repeat the "Select Label → Draw Bounding Box" steps until all targets are annotated.
+    - Manually mark targets using the mouse:
+        - Move the mouse and click the left button at the vertices of the target object.
     - Drag the mouse until the white box fully encloses the target, then click the left button again.
 
 ![img](../img/1_quick_experience/1761879936934-5c9ddf50-89ec-4e12-8d5e-2cf32df99df4.png)
 
-- - If adjustment is needed, right-click on the box to move it or resize its area.
+- If adjustment is needed, right-click on the box to move it or resize its area.
 
 ![img](../img/1_quick_experience/1761880107186-e141f054-46d4-492d-b6de-ab7cf1cc7be4.png)
 
-- - If an image contains multiple objects, each object must be annotated individually.
+- If an image contains multiple objects, each object must be annotated individually.
 
 ![img](../img/1_quick_experience/1761880401297-9931bc7d-a93b-4142-97c9-d172f0551ed8.png)
 
 - **Upload – Labeled Data:**
-- - Click the **Upload** button, select **Labeled Data** under **Import Data Type**, then click **Select File Upload**.
-  - **In your local folder, locate the prepared YOLO-format dataset file (.zip) and upload it. This completes the addition of Labeled data.**
+    - Click the **Upload** button, select **Labeled Data** under **Import Data Type**, then click **Select File Upload**.
+    - **In your local folder, locate the prepared YOLO-format dataset file (.zip) and upload it. This completes the addition of Labeled data.**
 
 **Professional Note:** YOLO format annotations require the bounding box coordinates to be normalized, meaning the center x-coordinate, center y-coordinate, width, and height are all scaled relative to the image dimensions to fall within the 0–1 range. This ensures the model can consistently handle images of different sizes.
 
@@ -138,9 +138,9 @@ Local upload can be divided into Unlabeled Data and **Labeled Data**:
 ![img](../img/1_quick_experience/1761883669522-b9f4e8b9-6d78-40d6-83c5-e1599fb65a4a.png)
 
 - During model training, you can click the **Learn More** button to view training monitoring data:
-- - **Training Loss (train loss):** The prediction error of the model on the training data. Lower loss indicates the model predicts the training data more accurately.
-  - **Validation Loss (val loss):** The prediction error on the validation data (data not used for training). A consistently decreasing validation loss indicates improved model generalization.
-  - **Validation mAP50 (Val mAP50):** Indicates the accuracy on the validation set where a prediction is considered correct only if the predicted box overlaps with the ground truth box by more than 50%. Higher values indicate better detection accuracy.
+    - **Training Loss (train loss):** The prediction error of the model on the training data. Lower loss indicates the model predicts the training data more accurately.
+    - **Validation Loss (val loss):** The prediction error on the validation data (data not used for training). A consistently decreasing validation loss indicates improved model generalization.
+    - **Validation mAP50 (Val mAP50):** Indicates the accuracy on the validation set where a prediction is considered correct only if the predicted box overlaps with the ground truth box by more than 50%. Higher values indicate better detection accuracy.
 
 ![img](../img/1_quick_experience/1761881475324-e50c44b8-0758-4fd2-aa0f-5c315ba9749f.png)
 
@@ -153,7 +153,7 @@ Local upload can be divided into Unlabeled Data and **Labeled Data**:
 ![img](../img/1_quick_experience/1761881736668-6025fcf8-2d74-463f-b48b-cfa2f251212b.png)
 
 - **Verification Method 2: File**
-- - Change the verification method to "File", click "Upload File", select an image, and open it.
+    - Change the verification method to "File", click "Upload File", select an image, and open it.
 
 ![img](../img/1_quick_experience/1761882036497-120c8e52-bc7d-464e-b513-b039d52d2e3a.png)
 
@@ -164,8 +164,8 @@ Local upload can be divided into Unlabeled Data and **Labeled Data**:
 ## Step 5: Model Deploy
 
 - Once the model validation results meet the requirements, you can proceed to deployment
-- - “Deploy” → Click “Export Model”.
-  - The platform supports exporting the model in ONNX format, making it easy to use in other environments or for secondary development.
+    - “Deploy” → Click “Export Model”.
+    - The platform supports exporting the model in ONNX format, making it easy to use in other environments or for secondary development.
 
 Tip: ONNX is an open model format that can run across various deep learning frameworks and devices. This allows you not only to test on the platform but also to apply the model in real projects.
 
@@ -180,7 +180,7 @@ Although the data is sent to the SIoT platform in real time, it is not stored in
 
 ### Step 6: Model Deployment
 
-**Method 1:** Refer to[4.1.5 Model Deployment](../../../Basic_description/model_deployment/model-deployment.md)
+**Method 1:** Refer to [4.1.5 Model Deployment](../../../Basic_description/model_deployment/model-deployment.md)
 
 * **Applicable to:** Models that support hardware deployment (such as UNIHIKER M10/K10), including image classification, object detection, etc.
 

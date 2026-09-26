@@ -53,19 +53,19 @@ By collecting and training the accelerometer’s x, y, and z axis data, the mode
 
 #### Step 2: Add Sample Data
 
-- Click the **Add Class** button to create the required categories for the image classification task. Users can add multiple categories according to the project requirements for subsequent data collection and model training.
+- Click the **Add Class** button to create the required categories for the temporal pattern recognition task. Users can add multiple categories according to the project requirements for subsequent data collection and model training.
 
 ![img](../img/1_quick_experience/1762139653765-789bba11-2a07-44ab-be05-0977e8ae0ad9.png)
 
 - After creating the categories, sample data can be added in the following two ways:
-- - **Collect:** Collect real-time data directly via the serial port.
-  - **Upload:** Import prepared data files, supporting batch addition and management.
+    - **Collect:** Collect real-time data directly via the serial port.
+    - **Upload:** Import prepared data files, supporting batch addition and management.
 - Using these two methods, users can efficiently and flexibly build a dataset, laying the foundation for model training.
 
 ![img](../img/1_quick_experience/1762141846684-73d6909d-a516-499f-896f-a4741d7785e5.png)
 
 - Sample Addition Method 1: Collect
-- - Click **Collect**, then in the serial port section, click **Get Serial Port**. In the pop-up **Select Serial Port Device** window, choose the serial debug unit.
+    - Click **Collect**, then in the serial port section, click **Get Serial Port**. In the pop-up **Select Serial Port Device** window, choose the serial debug unit.
 
 ![img](../img/1_quick_experience/1762142106089-217351ff-0c2d-435f-8e4d-cd7d40c4227a.png)
 
@@ -77,15 +77,10 @@ By collecting and training the accelerometer’s x, y, and z axis data, the mode
 
 ![img](../img/1_quick_experience/1762147460376-00aa56f0-d13f-4fc0-a9cf-17c6fffb00bb.png)
 
-- 样本添加方式2：上传
-- - 点击“添加类别”，新建另一类别（如“挥手”）→ 点击 “上传”，选择电脑本地csv数据批量导入。
+- **Sample Addition Method 2: Upload**
+    - Click **Add Class** to create a new class (e.g., “Wave”), then click **Upload** and select compatible CSV files on your computer for batch import.
+    - Use this method if you already have compatible CSV files. Sample CSV files for clapping, waving, and remaining still are provided so you can try the upload workflow.
 
-这种方式，适合有对应的csv文件，才能完成数据样本添加。
-
-提供简单的鼓掌、挥手、静止的csv文件供大家体验上传的操作。
-
-- Sample Addition Method 2: Upload
-- - Click **Add Class** to create a new class (e.g., “Wave”) → Click **Upload** and select local CSV files on your computer for batch import.
 
 ![img](../img/1_quick_experience/1762147845616-3c496695-f528-463e-83c4-f119283fe514.png)
 
@@ -102,7 +97,7 @@ Next, you can choose either of the above data addition methods to add sample dat
 | Parameter          | Description                                                                                                                                                                                                                      | Notes                                                      | Recommended Setting                         |
 | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------- |
 | Data Time Interval | The time interval between two sensor samples. Shorter intervals capture more details but generate more data.                                                                                                                     | Frequency of recording actions                             | 100 ms (default, can be adjusted as needed) |
-| Batch Size         | The number of data samples sent into the model for training at one time. Large datasets are split into batches to avoid computational overload. Example: default batch size is 16, meaning 16 images are used per training step. | How much content is learned at a time                      | 16 (default)                                |
+| Batch Size         | The number of data samples sent into the model for training at one time. Large datasets are split into batches to avoid computational overload. Example: default batch size is 16, meaning 16 temporal data samples are used per training step. | How much content is learned at a time                      | 16 (default)                                |
 | Epochs             | One complete pass of all training data through the model is called an epoch. Multiple epochs are needed to solidify learning. Example: default is 100 epochs; small datasets can use fewer epochs.                               | How many times to learn the data                           | 100 (reduce for small datasets if needed)   |
 | Learning Rate      | Determines the size of the step taken when updating model parameters. Too large may overshoot the optimum, too small may learn too slowly.                                                                                       | Step size: too big may overshoot, too small slows learning | 0.005 (default)                             |
 
@@ -137,15 +132,15 @@ SIoT Tool Download Links:
 ##### Programming
 
 - Add the main board and extension libraries
-- - Create a new program to receive real-time results. Go to the homepage, and in **Coding**, select **Upload Mode**.
+    - Create a new program to receive real-time results. Go to the homepage, and in **Coding**, select **Upload Mode**.
 
 ![img](../img/1_quick_experience/1762137582669-fbab1861-1584-41ac-901c-febd3080ef4d.png)
 
-- - Add Board: Click **Extensions**, then under **Board**, add the main board **UNIHIKER K10**.
+- Add Board: Click **Extensions**, then under **Board**, add the main board **UNIHIKER K10**.
 
 ![img](../img/1_quick_experience/1762137941630-29c93555-d4b2-4051-aad2-bd0d77ba290f.png)
 
-- - Add Extension Libraries: Click “Extensions,” then in the search box of “Model,” enter “Wi-Fi” and “MQTT” separately, download and add them.
+- Add Extension Libraries: Click “Extensions,” then in the search box of “Model,” enter “Wi-Fi” and “MQTT” separately, download and add them.
 
 ![img](../img/1_quick_experience/1761645289598-0e4ce863-fbd0-45ca-ae18-73d6eee2addc.png)
 
@@ -154,7 +149,7 @@ SIoT Tool Download Links:
 
 ![img](../img/1_quick_experience/1762479825182-60d8d4f7-e3ff-4608-b5a4-29e37a7ee292.png)
 
-- - After the program is uploaded, disconnect the device.
+- After the program is uploaded, disconnect the device.
 
 ![img](../img/1_quick_experience/1762150019608-0b136345-9778-494c-b188-0f138ff94276.png)
 
@@ -165,11 +160,11 @@ SIoT Tool Download Links:
 
 ![img](../img/1_quick_experience/1762150380477-7ee4a2dc-2b2a-4c07-8d31-6e2fd09c913e.png)
 
-- - Once the server is successfully connected, the **Real-Time Result Push** button turns green.
+- Once the server is successfully connected, the **Real-Time Result Push** button turns green.
 
 ![img](../img/1_quick_experience/1762150587322-11692cbd-824f-4b50-9f6f-4db5cefdbac0.png)
 
-- - Click **Get Serial Port Device** to start action recognition and enable real-time result push.
+- Click **Get Serial Port Device** to start action recognition and enable real-time result push.
 
 ![img](../img/1_quick_experience/1762151304833-9ef3cca3-6146-41b8-b5d3-7c6ddeda676c.png)
 
@@ -184,8 +179,8 @@ SIoT Tool Download Links:
 #### Step 6: Model Deploy
 
 - Once the model validation results meet the requirements, you can proceed to deployment
-- - “Deploy” → Click “Export Model”.
-  - The platform supports exporting the model in ONNX format, making it easy to use in other environments or for secondary development.
+    - “Deploy” → Click “Export Model”.
+    - The platform supports exporting the model in ONNX format, making it easy to use in other environments or for secondary development.
 
 Tip: ONNX is an open model format that can run across various deep learning frameworks and devices. This allows you not only to test on the platform but also to apply the model in real projects.
 
@@ -194,7 +189,7 @@ Tip: ONNX is an open model format that can run across various deep learning fram
 
 #### Step 7: Model Deployment
 
-**Method 1:** Refer to[4.1.5 Model Deployment](../../../Basic_description/model_deployment/model-deployment.md)
+**Method 1:** Refer to [4.1.5 Model Deployment](../../../Basic_description/model_deployment/model-deployment.md)
 
 * **Applicable to:** Models that support hardware deployment (such as UNIHIKER M10/K10), including image classification, object detection, etc.
 

@@ -1,4 +1,4 @@
-# 【Object Detection】 Advanced Mode
+# Object Detection: Advanced Mode
 
 This project uses **“Wild Animal Recognition”** as a case study to guide users through performing an object detection task in professional mode. Through this example, users can not only learn the basic workflow (data setup, data annotation, model training) but also experience advanced features in professional mode, such as customizing training parameters, observing training curves, and adjusting data augmentation strategies. This allows for more precise control over the model training process and continuous optimization of model performance. Once the model training is complete, the system can accurately detect and recognize wild animals in new images.
 
@@ -28,7 +28,7 @@ Note: The default dataset cannot be deleted.
 
 - Next, perform the “Import Data” operation for the newly created **Wild Animal Recognition** dataset. The system supports two import methods: **Labeled Data** and **Unlabeled Data**.
 - Import Method 1: Unlabeled Data
-- - Suitable for uploading only raw images (e.g., images containing a mix of apples, pears, and bananas, with at least 20 images per category).
+    - Suitable for uploading only raw images (e.g., images containing a mix of apples, pears, and bananas, with at least 20 images per category).
 
 **Steps:**
 
@@ -98,8 +98,8 @@ Press **Ctrl + number key (1/2/3 …)** to quickly switch between different labe
 ![img](../img/2_professional_mode/1761891981605-4086f4db-801d-47f0-964b-e5efd8d763ae.png)
 
 - After the model training task is successfully created, click **Config Params** to enter the training parameter configuration interface. You can adjust the parameters according to your needs, or start training directly with the default settings.
-- - **Basic Parameters**: Image size, Batch size, Epochs.
-  - **Advanced Parameters**:  Save Period, Vertical Flip Probability, fliplr, Optimizer, etc.
+    - **Basic Parameters**: Image size, Batch size, Epochs.
+    - **Advanced Parameters**:  Save Period, Vertical Flip Probability, fliplr, Optimizer, etc.
 
 | Parameter                 | Description                                                                                                                                                                                 | Explanation                                                                                                                                                                                                                                   |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -114,9 +114,9 @@ Press **Ctrl + number key (1/2/3 …)** to quickly switch between different labe
 ![img](../img/2_professional_mode/1761893692017-800eba71-7975-4071-a8cc-a77c6b5c72ae.png)
 
 - During model training, you can view relevant data through the **Training Monitoring** window.
-- - **Training Loss (train loss):** The prediction error of the model on the training data. Lower loss indicates the model predicts the training data more accurately.
-  - **Validation Loss (val loss):** The prediction error on the validation data (data not used for training). A consistently decreasing validation loss indicates improved model generalization.
-  - **Validation mAP50 (Val mAP50):** Indicates the accuracy on the validation set where a prediction is considered correct only if the predicted box overlaps with the ground truth box by more than 50%. Higher values indicate better detection accuracy.
+    - **Training Loss (train loss):** The prediction error of the model on the training data. Lower loss indicates the model predicts the training data more accurately.
+    - **Validation Loss (val loss):** The prediction error on the validation data (data not used for training). A consistently decreasing validation loss indicates improved model generalization.
+    - **Validation mAP50 (Val mAP50):** Indicates the accuracy on the validation set where a prediction is considered correct only if the predicted box overlaps with the ground truth box by more than 50%. Higher values indicate better detection accuracy.
 - After the model training is completed, you can delete, export, or view result of the trained model from the operation bar.
 
 ![img](../img/2_professional_mode/1761895201608-426ab4e4-29d6-4614-a74e-c92ff6bea88e.png)
@@ -131,7 +131,7 @@ Press **Ctrl + number key (1/2/3 …)** to quickly switch between different labe
 | best.pt | The model that performed best on the validation set during training | Model with the best validation performance | Testing / deployment            |
 
 - **Model Validation** supports two methods: **Camera Real-Time Test** and **Single Image Test**.
-- - **Camera Real-Time Test**: Recognize fruits in real time through the camera, and generate masks to cover the contours of the identified fruits, visually displaying the segmentation results.
+    - **Camera Real-Time Test**: Recognize fruits in real time through the camera, and generate masks to cover the contours of the identified fruits, visually displaying the segmentation results.
 
 ![img](../img/2_professional_mode/1761895508728-d98e8327-e39a-4b2b-84cc-deb90dffaa46.png)
 
@@ -150,7 +150,7 @@ If you are not satisfied with the model’s performance, you can go to the **Mod
 
 ### Model Deployment
 
-**Method 1:** Refer to[4.1.5 Model Deployment](../../../Basic_description/model_deployment/model-deployment.md)
+**Method 1:** Refer to [4.1.5 Model Deployment](../../../Basic_description/model_deployment/model-deployment.md)
 
 * **Applicable to:** Models that support hardware deployment (such as UNIHIKER M10/K10), including image classification, object detection, etc.
 

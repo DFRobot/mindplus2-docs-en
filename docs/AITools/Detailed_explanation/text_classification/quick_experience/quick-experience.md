@@ -33,45 +33,45 @@ The quick experience for text classification consists of **five steps**:
 ![img](../img/1_quick_experience/1762406733328-bc682eb7-c8d3-4ec2-bbab-e67af83b874f.png)
 
 - Samples can be added in the following two ways, allowing users to flexibly choose according to their needs:
-- - **Manual Input:** Suitable for generating a small amount of interference text on the spot (e.g., entering unrelated content such as “asdfg12345” or “The weather is nice today, not related to the movie”). This method is convenient and helps quickly capture interference features relevant to the current scenario.
-  - **Local Upload:** Suitable for importing pre-prepared batches of text materials (e.g., pre-collected positive review .txt files), making it easier to manage text data efficiently.
+    - **Manual Input:** Suitable for generating a small amount of interference text on the spot (e.g., entering unrelated content such as “asdfg12345” or “The weather is nice today, not related to the movie”). This method is convenient and helps quickly capture interference features relevant to the current scenario.
+    - **Local Upload:** Suitable for importing pre-prepared batches of text materials (e.g., pre-collected positive review .txt files), making it easier to manage text data efficiently.
 - By using these two methods, users can flexibly build datasets and prepare for subsequent model training.
-- - **Naming Class**
-- - - Continue modifying the default label **“Class1”** by clicking the pencil icon next to it. Rename the category to a specific text type (e.g., **“Interference Text”**) to complete the naming of this text sample Class.
+    - **Naming Class**
+        - Continue modifying the default label **“Class1”** by clicking the pencil icon next to it. Rename the category to a specific text type (e.g., **“Interference Text”**) to complete the naming of this text sample Class.
 
 ![img](../img/1_quick_experience/1762406892526-1828f473-f650-411a-bc6e-70c919316f79.png)
 
 - **Sample Addition Method 1: Manual Input**
-- - Click the **“Add Sample”** button on the interface. A text input box will pop up, allowing you to enter a single piece of interference text (e.g., “qwertyuiop” or “This content is not related to the movie”). It is recommended to keep each text entry between **10–200 characters** to avoid overly short, meaningless text or excessively long entries that may increase the model’s processing load.
+    - Click the **“Add Sample”** button on the interface. A text input box will pop up, allowing you to enter a single piece of interference text (e.g., “qwertyuiop” or “This content is not related to the movie”). It is recommended to keep each text entry between **10–200 characters** to avoid overly short, meaningless text or excessively long entries that may increase the model’s processing load.
 
 ![img](../img/1_quick_experience/1762407294205-eb068156-b9cd-4579-83bb-876bdc7ed9d6.png)
 
-- - After entering the text, click the **“Add Sample”** button. The text will automatically be categorized under **Interference Text**. To add more samples, repeat the **“Enter Text → Add Sample”** process until the desired number of samples is reached. It is recommended to include a variety of interference types.
+- After entering the text, click the **“Add Sample”** button. The text will automatically be categorized under **Interference Text**. To add more samples, repeat the **“Enter Text → Add Sample”** process until the desired number of samples is reached. It is recommended to include a variety of interference types.
 
 ![img](../img/1_quick_experience/1762407329862-923d589b-19a1-4356-886e-af7f27cd6963.png)
 
-- - You can **delete individual interference text samples, delete in bulk, or export in bulk** (export format supports `.txt`) to facilitate sample management and updates.
-  - After completing the collection of this sample type, click the **“Return”** button at the top right of the input box to exit the input interface.
+- You can **delete individual interference text samples, delete in bulk, or export in bulk** (export format supports `.txt`) to facilitate sample management and updates.
+    - After completing the collection of this sample type, click the **“Return”** button at the top right of the input box to exit the input interface.
 
 ![img](../img/1_quick_experience/1762407964753-64084b36-8171-49f7-9726-40194d026937.png)
 
 - **Sample Addition Method 2: Local Upload**
 
   First, continue modifying the default label **“Class2”** below by clicking the pencil icon next to it. Rename the category to a specific text type (e.g., **“Positive Reviews”**) to complete the naming of this text sample category.
-- - Click the **“Upload”** button to enter the text sample upload interface.
-  - Click the **“Upload”** button to enter the text sample upload interface; then click **“Select File Upload”** and choose a pre-prepared movie review text file from your local computer. The file must be in **txt format**.
+    - Click the **“Upload”** button to enter the text sample upload interface.
+    - Click the **“Upload”** button to enter the text sample upload interface; then click **“Select File Upload”** and choose a pre-prepared movie review text file from your local computer. The file must be in **txt format**.
 
 **Note:** The content in the file should be separated by **line breaks** (i.e., each sentence or phrase should be on a new line).
 
 ![img](../img/1_quick_experience/1762408792682-56174afc-ae1f-484c-be70-4e07d6542d44.png)
 
-- - - After completing the sample upload, click **“Return”** to exit the input interface.
+- After completing the sample upload, click **“Return”** to exit the input interface.
 
 ![img](../img/1_quick_experience/1762408958055-a702216b-ef87-4191-a1c3-415aca6ac5c1.png)
 
 On this basis, continue uploading and adding new samples to supplement the dataset.
 
-- - Click **“Add a Class”** to create a new category (e.g., **“Neutral Reviews”**) and repeat the sample addition steps above until all categories have been added.
+- Click **“Add a Class”** to create a new category (e.g., **“Neutral Reviews”**) and repeat the sample addition steps above until all categories have been added.
 
 ![img](../img/1_quick_experience/1762409368088-4eefc720-aabf-439e-a465-227ec8aeb020.png)
 
@@ -83,7 +83,7 @@ Tips for Data Samples:
 ### Step 3: Train Model
 
 - **Advanced Parameter Settings**
-- - Before training the model, click **“Advanced”** to set the training parameters. You can configure the following three core parameters:
+    - Before training the model, click **“Advanced”** to set the training parameters. You can configure the following three core parameters:
 
 | **Parameter**     | **Description**                                                                                                                                                                                                                                                                       | **Category Explanation**                                                                                                                                                                                                                                                                                                                            | **Recommended Setting** |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- |
@@ -92,16 +92,16 @@ Tips for Data Samples:
 | **Learning Rate** | Controls the step size of each parameter update, i.e., how much the model adjusts weights based on classification error. For example, a learning rate of 0.001 means each parameter update moves 0.001 times the gradient value.                                                            | Determines the convergence speed and final accuracy of the model: a too high learning rate may cause oscillation (error fluctuates, unable to converge stably); a too low learning rate slows training (requires more epochs to reach low error) and may get stuck in local minima.                                                                       | 0.001                         |
 
 - **Start Model Training**
-- - After setting the training parameters, click **“Train Model”** to begin training. (If no settings are adjusted, the system will use the default parameters.)
+    - After setting the training parameters, click **“Train Model”** to begin training. (If no settings are adjusted, the system will use the default parameters.)
 
 ![img](../img/1_quick_experience/1762409919259-a62a172c-3c2c-4ab5-a01f-476808e61cc7.png)
 
 During training, make sure to **keep this tab open** to avoid interruptions caused by switching pages or closing the browser.
 
-- - **Training Monitoring**
+- **Training Monitoring**
 
   While the model is training, you can click **“Learn More”** to view relevant training metrics:
-- - - **Accuracy per Epoch:** The proportion of predictions that match the actual results within one epoch (i.e., one complete iteration over the entire training dataset).
+        - **Accuracy per Epoch:** The proportion of predictions that match the actual results within one epoch (i.e., one complete iteration over the entire training dataset).
     - **Loss per Epoch:** A quantitative measure of the error between the model’s predictions and the true values within that epoch.
 
 ![img](../img/1_quick_experience/1762410126392-8b92b044-365f-49b1-bb4f-9cfdb3470df8.png)
@@ -113,7 +113,7 @@ During training, make sure to **keep this tab open** to avoid interruptions caus
 **Tip:** Testing with new texts that were not part of the training set better reflects the model’s actual performance.
 
 - Validation Method: Text Input
-- - In the **“Input”** area, click **“Manual Input”** and enter new movie review text in the text box. The **“Output”** area will display the real-time classification results.
+    - In the **“Input”** area, click **“Manual Input”** and enter new movie review text in the text box. The **“Output”** area will display the real-time classification results.
 
 ![img](../img/1_quick_experience/1762410512613-79994c05-fda5-468a-9560-6ed6edf2d8ce.png)
 
@@ -127,8 +127,8 @@ Validation Result Analysis:
 ### Step 5: Model Deploy
 
 - Once the model validation results meet the requirements, you can proceed to the deployment stage.
-- - Go to **“Deploy”** → Click **“Export Model”**.
-  - The platform supports exporting the model in **ZIP format**, making it easy to use in other environments or for secondary development.
+    - Go to **“Deploy”** → Click **“Export Model”**.
+    - The platform supports exporting the model in **ZIP format**, making it easy to use in other environments or for secondary development.
 
 ![img](../img/1_quick_experience/1762410820213-d615b13d-231d-447f-b1a3-7adcb7b8ca28.png)
 
@@ -139,7 +139,7 @@ Validation Result Analysis:
 
 ### Step 6: Model Deployment
 
-**Method 1:** Refer to[4.1.5 Model Deployment](../../../Basic_description/model_deployment/model-deployment.md)
+**Method 1:** Refer to [4.1.5 Model Deployment](../../../Basic_description/model_deployment/model-deployment.md)
 
 * **Applicable to:** Models that support hardware deployment (such as UNIHIKER M10/K10), including image classification, object detection, etc.
 

@@ -6,7 +6,7 @@ The Settings interface contains the software's global settings. Click the "Setti
 
 ## 1. Language
 
-Supports 20 different languages, selectable by the user, to meet a wide range of user needs.
+Supports 23 different languages, selectable by the user, to meet a wide range of user needs.
 
 ![image](../31RealTimeMode/312Settings.assets/pic_1787727468173.png)
 

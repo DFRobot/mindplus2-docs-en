@@ -21,7 +21,7 @@ Next, we’ll take a closer look at these seven areas. For a detailed overview o
 |                    [Menu Bar](311MenuBar.md)                    | [Settings](312Settings.md)                                              | [Functional Areas-Blocks](313FunctionalAreasBlocks/index.md) | [Functional area-Costumes](314FunctionalAreaCostumes.md) |
 | :----------------------------------------------------------: | -------------------------------------------------------------------- | --------------------------------------------------------- | ----------------------------------------------------- |
 |         [Function Area-Sounds](315FunctionAreaSound.md)         | [Extension Area](316ExtensionArea.md)                                   | [Programming Area](317ProgrammingArea.md)                    | [Stage Area](318StageArea.md)                            |
-| [Sprite and background area](319CharactersAndBackgroundArea.md) | [BackPack](../31RealTimeMode/Coding/#2-general-features-block-backpack) |                                                           |                                                       |
+| [Sprite and background area](319CharactersAndBackgroundArea.md) | [BackPack](../31RealTimeMode/Coding/index.md#2-general-features-block-backpack) |                                                           |                                                       |
 
 ### Frequently Asked Questions
 

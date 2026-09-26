@@ -1,4 +1,4 @@
-# 【Temporal Pattern Recognition】 Advanced Mode
+# Temporal Pattern Recognition: Advanced Mode
 
 This project takes **“UNIHIKER K10 Acceleration-Based Motion Recognition”** as an example to demonstrate how to perform temporal pattern recognition in **Advanced Mode**. Through this case, users will not only learn the complete workflow — including **data setup, data annotation, and model training** — but also gain experience with the advanced features available in this mode.
 
@@ -37,24 +37,26 @@ Note: The default dataset cannot be deleted.
 
 ![img](../img/2_professional_mode/1762155911165-6ffa495a-365b-40fe-b58a-016e9fc5bd57.png)
 
-- Next, perform the **Import Data** operation for the newly created Traffic Sign Recognition dataset. The system supports two import methods: **Annotation Data** and **Unannotation Data.**
-- Import Method 1: **Unannotation Data**
-- - Suitable for uploading only raw images (e.g., images containing mixed traffic signs such as straight, left turn, right turn, with at least 20 images per category).
-  - **Steps:** Select **Unannotation Data** as the import type → Click Click to Upload → Choose images from the local computer → Click Confirm to complete the import.
+- Next, perform the **Import Data** operation for the newly created UNIHIKER K10 Motion Recognition dataset. The system supports two import methods: **Annotated Data** and **Unannotated Data.**
+- Import Method 1: **Unannotated Data**
+    - Suitable for uploading unlabeled temporal samples (e.g., mixed clapping, waving, and stillness data, with at least 10 samples per category).
+    - **Steps:** Select **Unannotated Data** as the import type → click **Click to Upload** → choose the data files on your computer → click **Confirm**.
 
 ![img](../img/2_professional_mode/1762156854346-d85f95b3-2550-4698-aa22-3ec18f5bb8e1.png)
 
-- **Import Method 2: Annotation Data**
-- - Directly upload **Annotation Data** in CSV format (as a .zip archive).
-  - Organize the folder structure according to platform requirements. After uploading, manual labeling is not required — you can proceed directly to model training.
+- **Import Method 2: Annotated Data**
+    - Directly upload **Annotated Data** in CSV format (as a .zip archive).
+    - Organize the folder structure according to platform requirements. After uploading, manual labeling is not required — you can proceed directly to model training.
+
+![img](../img/2_professional_mode/1762159030803-a85bf6a5-c88e-42a6-9dba-da22e6fcb3ed.png)
 
 ## Annotation Settings
 
-- After the traffic sign images are successfully imported, the annotation progress bar will simultaneously display the number of imported images and their corresponding annotations.
+- After the temporal data is imported, the annotation progress bar shows the number of imported samples and their corresponding annotations.
 
 ![img](../img/2_professional_mode/1762157099077-ea4b131d-7128-49a8-a14c-b306ee6713ee.png)
 
-- Click **Annotate** in the **Actions** column to enter the traffic sign annotation settings interface.
+- Click **Annotate** in the **Actions** column to open the temporal data annotation interface.
 
 ![img](../img/2_professional_mode/1762157166225-d0d11832-259d-4193-ab37-2338ff4dae73.png)
 
@@ -75,11 +77,6 @@ Note: The default dataset cannot be deleted.
 
 ![img](../img/2_professional_mode/1762157929864-926cd124-010c-4d31-8410-cb6a3892a1fe.png)
 
-- Import Method 2: Annotation Data
-- - Directly upload labeled data as a **.zip** archive.
-  - Organize the folder structure according to platform requirements. After uploading, manual labeling is not needed — you can proceed directly to model training.
-
-![img](../img/2_professional_mode/1762159030803-a85bf6a5-c88e-42a6-9dba-da22e6fcb3ed.png)
 
 ## Model Training
 
@@ -88,16 +85,16 @@ Note: The default dataset cannot be deleted.
 ![img](../img/2_professional_mode/1762159293691-ff4c4c58-0da6-4101-8785-de283086f6ab.png)
 
 - Click **Create Training Task**, and in the pop-up window, configure the following settings:
-- - **Name:** UNIHIKER K10 Motion Recognition Model (customize as needed)
-  - **Device:** Select the corresponding main board (**UNIHIKER K10**)
-  - **Dataset:** UNIHIKER K10 Motion Recognition (In **Data Settings**, we have created and named the dataset “UNIHIKER K10 Motion Recognition”; in **Annotation Settings**, the temporal data labeling and organization are complete. The dataset now has the full structure required for model training. In the next stage, the system will learn temporal features from this dataset, enabling action recognition based on acceleration values. Therefore, select the **UNIHIKER K10 Motion Recognition** dataset here.)
-  - **Training Set Ratio:** Choose according to your needs (or keep the default).
+    - **Name:** UNIHIKER K10 Motion Recognition Model (customize as needed)
+    - **Device:** Select the corresponding main board (**UNIHIKER K10**)
+    - **Dataset:** UNIHIKER K10 Motion Recognition (In **Data Settings**, we have created and named the dataset “UNIHIKER K10 Motion Recognition”; in **Annotation Settings**, the temporal data labeling and organization are complete. The dataset now has the full structure required for model training. In the next stage, the system will learn temporal features from this dataset, enabling action recognition based on acceleration values. Therefore, select the **UNIHIKER K10 Motion Recognition** dataset here.)
+    - **Training Set Ratio:** Choose according to your needs (or keep the default).
 
 | **Training Task Parameter** | **Purpose**                                                                           | **Description**                                                                                                                   |
 | --------------------------------- | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | Name                              | Used to distinguish and manage different training tasks; does not affect model performance. | Acts as a label for this experiment, making it easier to review and compare later.                                                      |
 | Device                            | Specifies which main board to use.                                                          | Select the device corresponding to the main board in use.                                                                               |
-| Dataset                           | Indicates which data the model should learn from.                                           | Acts as the “textbook”; the model learns to recognize different actions from the dataset’s images and labels.                        |
+| Dataset                           | Indicates which data the model should learn from.                                           | Acts as the “textbook”; the model learns to recognize different actions from the dataset’s temporal samples and labels.                        |
 | Training Set Ratio                | Determines what proportion of the dataset is used for training and validation.              | Training set = examples used by the model to learn. Validation set = examples used to test the model’s learning (unseen by the model). |
 
 ![img](../img/2_professional_mode/1762159668375-a06cc736-0c98-486b-aed7-9c45a574ade2.png)
@@ -108,7 +105,7 @@ Note: The default dataset cannot be deleted.
 | Parameter          | Description                                                                                                                                                                                                                  | Notes                                                      | Recommended Setting                         |
 | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------- |
 | Data Time Interval | The time interval between two sensor samples. Shorter intervals capture more details but generate more data.                                                                                                                 | Frequency of recorded actions                              | 100 ms (default, can be adjusted as needed) |
-| Batch Size         | Number of data samples sent into the model for training at one time. Large datasets are split into batches to avoid computational overload. Example: default batch size is 16, meaning 16 images are used per training step. | How much content is learned at a time                      | 16 (default)                                |
+| Batch Size         | Number of data samples sent into the model for training at one time. Large datasets are split into batches to avoid computational overload. Example: default batch size is 16, meaning 16 temporal data samples are used per training step. | How much content is learned at a time                      | 16 (default)                                |
 | Epochs             | One complete pass of all training data through the model is called an epoch. Multiple epochs are needed to solidify learning. Example: default is 100 epochs; small datasets can use fewer epochs.                           | How many times to learn the data                           | 100 (reduce for small datasets if needed)   |
 | Learning Rate      | Determines the size of the step taken when updating model parameters. Too large may overshoot the optimum, too small may learn too slowly.                                                                                   | Step size: too big may overshoot, too small slows learning | 0.005 (default)                             |
 
@@ -152,7 +149,7 @@ Note: The default dataset cannot be deleted.
 
 ## Model Deployment
 
-**Method 1:** Refer to[4.1.5 Model Deployment](../../../Basic_description/model_deployment/model-deployment.md)
+**Method 1:** Refer to [4.1.5 Model Deployment](../../../Basic_description/model_deployment/model-deployment.md)
 
 * **Applicable to:** Models that support hardware deployment (such as UNIHIKER M10/K10), including image classification, object detection, etc.
 

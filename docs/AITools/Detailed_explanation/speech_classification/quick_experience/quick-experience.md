@@ -15,7 +15,7 @@ The **speech classification model training process** consists of six steps:
 
 ### Step 1: Create Project
 
-- Open Mind+, select “New Project” from the menu bar, then click “Model”. In the training options, locate “Speech Classification（M5）” and click it to create the project.
+- Open Mind+, select “New Project” from the menu bar, then click “Model”. In the training options, locate “Speech Classification (M5)” and click it to create the project.
 
 ![img](../img/1_quick_experience/1762328043111-53f27f28-db56-43f4-b170-18d4364c4f6c.png)
 
@@ -32,36 +32,36 @@ The **speech classification model training process** consists of six steps:
 ![img](../img/1_quick_experience/1762328747650-c104dd45-de9c-421f-83e8-752a49697d54.png)
 
 - Audio samples can be added in two ways:
-- - **Microphone Recording**: Suitable for on-site recording, allowing you to quickly capture real-time speech and conveniently collect data directly during experiments.
-  - **Local Upload**: Suitable for importing pre-prepared audio files, making it easy to add and manage existing data in batches.
+    - **Microphone Recording**: Suitable for on-site recording, allowing you to quickly capture real-time speech and conveniently collect data directly during experiments.
+    - **Local Upload**: Suitable for importing pre-prepared audio files, making it easy to add and manage existing data in batches.
 - These two methods enable users to flexibly build datasets and prepare for subsequent model training.
 - **Sample Addition Method 1: Microphone Recording**
-- - Click the microphone and select an available microphone on your computer.
+    - Click the microphone and select an available microphone on your computer.
 
 ![img](../img/1_quick_experience/1762329414873-9ed92882-2627-4e4a-8636-960daff04047.png)
 
 **Note:** If your desktop does not have a built-in microphone, you can use an external microphone.
 
-- - Click **“Record 20 seconds”** to start capturing audio samples. The recording will automatically stop when the 20-second countdown ends.
+- Click **“Record 20 seconds”** to start capturing audio samples. The recording will automatically stop when the 20-second countdown ends.
 
 ![img](../img/1_quick_experience/1762329572633-c2c45ff3-525d-4b62-97e9-2b743133f1d4.png)
 
-- - Click **“Extract”** to extract samples from the audio segment.
+- Click **“Extract”** to extract samples from the audio segment.
 
 ![img](../img/1_quick_experience/1762329704950-9d45d2e4-c11a-4f58-8835-a08b6bec3759.png)![img](../img/1_quick_experience/1762329879493-6ceb51b6-9171-4b55-9df9-86e1c0d13774.png)
 
-- - After extraction is complete, click **“return”** to exit the recording interface.
-- - - - After extracting samples, the interface will display the number of samples collected so far. If the minimum of 20 samples per category has not been reached, repeat the recording/upload and extraction process.
+- After extraction is complete, click **“return”** to exit the recording interface.
+- After extracting samples, the interface will display the number of samples collected so far. If the minimum of 20 samples per category has not been reached, repeat the recording/upload and extraction process.
 
 ![img](../img/1_quick_experience/1762331441737-a8da40a2-13a1-4c67-b654-b054ebc53c95.png)
 
-- - Recording Status Check
+- Recording Status Check
 
 **Note:** If the recording displays as shown below, please check whether the microphone is turned on or properly connected.
 
 ![img](../img/1_quick_experience/1762331510363-a03d16fd-714d-4fad-af7f-2409bac1e983.png)
 
-- - Audio Recording Settings
+- Audio Recording Settings
 
 ![img](../img/1_quick_experience/1762332177225-8557d716-d012-4c47-a4a4-a7539ffcc470.png)
 
@@ -72,14 +72,14 @@ The **speech classification model training process** consists of six steps:
 ![img](../img/1_quick_experience/1762332904088-a6c02925-cb5f-4756-9acb-48e7135a6f4c.png)
 
 - **Sample Addition Method 2: Local Upload**
-- - Click the **“Upload”** button to enter the audio sample upload interface.
-  - Click **“Select File Upload”** and choose the `.zip` file created using the **“Download Sample”** function from your local files.
-  - Click **“Open”** to complete the sample upload.
+    - Click the **“Upload”** button to enter the audio sample upload interface.
+    - Click **“Select File Upload”** and choose the `.zip` file created using the **“Download Sample”** function from your local files.
+    - Click **“Open”** to complete the sample upload.
 
 ![img](../img/1_quick_experience/1762334069483-dd66735c-1d3d-40ca-8a54-7ab948266dd0.png)
 
-- - After audio sample extraction is complete, click **“Return”** to exit the recording interface.
-- - - After extracting samples, the interface will display the number of samples collected so far. If the minimum of 20 samples per category has not been reached, repeat the recording/upload and extraction process.
+- After audio sample extraction is complete, click **“Return”** to exit the recording interface.
+- After extracting samples, the interface will display the number of samples collected so far. If the minimum of 20 samples per category has not been reached, repeat the recording/upload and extraction process.
 
 ![img](../img/1_quick_experience/1762334756527-b85a2d12-0502-4473-80ac-332cfd72a8d6.png)
 
@@ -89,38 +89,38 @@ The **speech classification model training process** consists of six steps:
 
 Tips for Data Samples:
 
-- - - For each category, prepare audio samples that are as distinct and clear as possible, and try to keep the number of samples balanced across categories.
-    - It is recommended to give each category a simple name without using overly complex symbols or excessively long names.
+- For each category, prepare audio samples that are as distinct and clear as possible, and try to keep the number of samples balanced across categories.
+- It is recommended to give each category a simple name without using overly complex symbols or excessively long names.
 
 ### Step 4: Train Model
 
 - **Advanced Parameter Settings**
-- - Before training the model, click **“Advanced Settings”** to set the training parameter **“Epochs”**.
+    - Before training the model, click **“Advanced Settings”** to set the training parameter **“Epochs”**.
 
 | Parameter | Description                                                                                                                                                                                                                                                                                                                                | Category Explanation                                                                                                                       | Recommended Setting                                                                                                                   |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
 | Epochs    | One epoch means that every sample in the training dataset has been fed into the model at least once. For example, if you set the epochs to 50, the model will iterate over the entire training dataset 50 times. Generally, the higher this value, the better the model learns to predict the data, as long as overfitting does not occur. | The total number of complete iterations over the training dataset, reflecting how thoroughly the model traverses the data during learning. | Can be increased up to 100. You may need to fine-tune (usually increase) this value until the model achieves good prediction results. |
 
 - **Start Model Training**
-- - After setting the training parameters, click **“Train Model”** to start training. (If no settings are made, the system default parameters will be used.)
+    - After setting the training parameters, click **“Train Model”** to start training. (If no settings are made, the system default parameters will be used.)
 
 ![img](../img/1_quick_experience/1762335541644-60841d05-79dd-486e-9bbd-13ecd531e53b.png)
 
-- - During training, make sure to keep this tab open. Switching pages or closing the browser may interrupt the training process.
+- During training, make sure to keep this tab open. Switching pages or closing the browser may interrupt the training process.
 
 ![img](../img/1_quick_experience/1762335689874-741ed344-270d-4c51-8771-d0d4984771fb.png)
 
 - **Training Process Monitoring**
-- - During model training, you can click the **“Learn More”** button to view training monitoring data.
-- - - **Accuracy per Epoch**: The proportion of model predictions that match the actual results within one epoch (i.e., one complete iteration over the entire training dataset).
+    - During model training, you can click the **“Learn More”** button to view training monitoring data.
+        - **Accuracy per Epoch**: The proportion of model predictions that match the actual results within one epoch (i.e., one complete iteration over the entire training dataset).
     - **Loss per Epoch**: A quantitative measure of the error between the model’s predicted values and the true values during that epoch.
 
 ![img](../img/1_quick_experience/1762336040907-0c6f113c-97e7-4853-ab80-28d2d2a5380f.png)
 
-- - - - **Accuracy Line Chart per Epoch**
-      - The blue line (**acc**) represents the model’s accuracy on the training data for each epoch. From the chart, you can see that as the number of epochs increases, the training accuracy rises rapidly and eventually stabilizes near 1.0, indicating that the model is increasingly fitting the training data well. The orange line (**test acc**) represents the model’s accuracy on the test data for each epoch. It rises slightly at first but quickly stabilizes around 0.6, much lower than the training accuracy. This shows that while the model performs very well on the training data, its performance on unseen test data is moderate, indicating limited generalization ability.
-      - **Loss Line Chart per Epoch**
-      - The blue line (**loss**) represents the model’s loss on the training data for each epoch. The loss decreases rapidly as training progresses and stabilizes at a very low level, consistent with the trend observed in training accuracy, showing that prediction errors on the training data are decreasing. The orange line (**test loss**) represents the model’s loss on the test data for each epoch. It decreases initially but then stabilizes at a value higher than the training loss. Combined with the test accuracy, this indicates that prediction errors on the test data are larger than on the training data, further demonstrating that the model is overfitting the training data and has suboptimal generalization on unseen data.
+- **Accuracy Line Chart per Epoch**
+- The blue line (**acc**) represents the model’s accuracy on the training data for each epoch. From the chart, you can see that as the number of epochs increases, the training accuracy rises rapidly and eventually stabilizes near 1.0, indicating that the model is increasingly fitting the training data well. The orange line (**test acc**) represents the model’s accuracy on the test data for each epoch. It rises slightly at first but quickly stabilizes around 0.6, much lower than the training accuracy. This shows that while the model performs very well on the training data, its performance on unseen test data is moderate, indicating limited generalization ability.
+- **Loss Line Chart per Epoch**
+- The blue line (**loss**) represents the model’s loss on the training data for each epoch. The loss decreases rapidly as training progresses and stabilizes at a very low level, consistent with the trend observed in training accuracy, showing that prediction errors on the training data are decreasing. The orange line (**test loss**) represents the model’s loss on the test data for each epoch. It decreases initially but then stabilizes at a value higher than the training loss. Combined with the test accuracy, this indicates that prediction errors on the test data are larger than on the training data, further demonstrating that the model is overfitting the training data and has suboptimal generalization on unseen data.
 
 ### Step 5: Model Validation
 
@@ -133,8 +133,8 @@ Tips for Data Samples:
 ### Step 6: Model Deploy
 
 - Once the model validation results meet your requirements, you can proceed to deployment.
-- - Go to **“Deploy”** → Click **“Export Model”**.
-  - The platform supports exporting the model as a .zip file, making it easy to use in other environments or for further development.
+    - Go to **“Deploy”** → Click **“Export Model”**.
+    - The platform supports exporting the model as a .zip file, making it easy to use in other environments or for further development.
 
 ![img](../img/1_quick_experience/1762395930723-146a409a-7b41-4437-bf64-d001c4a6b6e5.png)
 
@@ -146,7 +146,7 @@ Tips for Data Samples:
 
 ### Step 7: Model Deployment
 
-**Method 1:** Refer to[4.1.5 Model Deployment](../../../Basic_description/model_deployment/model-deployment.md)
+**Method 1:** Refer to [4.1.5 Model Deployment](../../../Basic_description/model_deployment/model-deployment.md)
 
 * **Applicable to:** Models that support hardware deployment (such as UNIHIKER M10/K10), including image classification, object detection, etc.
 

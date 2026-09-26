@@ -28,9 +28,9 @@ It also illustrates the **practical value** of instance segmentation in real-wor
 
 - Adding samples is the foundation of model training. It’s essential to ensure **high-quality images** and **accurate annotations**. This process consists of two parts: **Sample Addition** and **Sample Annotation**.
 - **Add Image Sample:**
-- - - Within the current dataset, you can add image samples using **two methods**:
-- - - - **Camera Capture:** Suitable for real-time data collection, allowing you to quickly capture live images during experiments.
-      - **Local Upload:** Ideal for importing pre-prepared sample materials, making it easy to batch add and manage existing data.
+        - Within the current dataset, you can add image samples using **two methods**:
+            - **Camera Capture:** Suitable for real-time data collection, allowing you to quickly capture live images during experiments.
+        - **Local Upload:** Ideal for importing pre-prepared sample materials, making it easy to batch add and manage existing data.
 
 ![img](../img/1_quick_experience/1761808346659-c8b0f955-91e2-4599-be43-67fd37aea544.png)
 
@@ -45,13 +45,13 @@ To ensure optimal training performance of the object detection model, please mak
 | **Background & Lighting**   | Simple background and even lighting                | Keep the background clean and reduce distractions. Ensure uniform lighting—avoid underexposure or overexposure—to improve model training accuracy.                     |
 
 - Sample Addition Method 1: Webcam Capture
-- - Click the webcam and point it at the target. Use the preview window to check whether the captured image is valid, then press “Record” to collect samples. After completing the image sample collection, click “×” to exit the capture screen.
-  - Note: If the desktop does not have a built-in webcam, an external USB webcam can be used.
+    - Click the webcam and point it at the target. Use the preview window to check whether the captured image is valid, then press “Record” to collect samples. After completing the image sample collection, click “×” to exit the capture screen.
+    - Note: If the desktop does not have a built-in webcam, an external USB webcam can be used.
 
 ![img](../img/1_quick_experience/1761809034824-b30c063d-1c9f-469c-b314-c4b2dad63c96.png)
 
-- - During sample data collection, you can use the “Settings” button to adjust the webcam’s frame rate (number of images captured per second; higher values result in faster capture).
-  - Note: If the FPS is too high, the captured images will have minimal differences, which is not very useful for training.
+- During sample data collection, you can use the “Settings” button to adjust the webcam’s frame rate (number of images captured per second; higher values result in faster capture).
+    - Note: If the FPS is too high, the captured images will have minimal differences, which is not very useful for training.
 
 ![img](../img/1_quick_experience/1761809119462-e05d1b60-ab47-42ad-b214-17e5060a189c.png)
 
@@ -59,19 +59,19 @@ To ensure optimal training performance of the object detection model, please mak
 
 Local upload can be divided into Unlabeled Data and **Labeled Data**:
 
-- - **Unlabeled Data:** Only upload image samples. Targets in the images need to be Labeled manually later. This is suitable for learning the workflow in this example.
-  - **Labeled Data:** Image samples are already Labeled and corresponding masks are generated. These can be used directly for model training without additional annotation.
+- **Unlabeled Data:** Only upload image samples. Targets in the images need to be Labeled manually later. This is suitable for learning the workflow in this example.
+    - **Labeled Data:** Image samples are already Labeled and corresponding masks are generated. These can be used directly for model training without additional annotation.
 
 **Upload – Unlabeled Data:**
 
-- - Click the **Upload** button, select Unlabeled Data under **Import Data Type**, then click **Select File Upload**.
-  - In your local folder, find the prepared image samples, select all, and upload them to the dataset. This completes the addition of Unlabeled Data.
+- Click the **Upload** button, select Unlabeled Data under **Import Data Type**, then click **Select File Upload**.
+    - In your local folder, find the prepared image samples, select all, and upload them to the dataset. This completes the addition of Unlabeled Data.
 
 ![img](../img/1_quick_experience/1761810046334-1d63f81e-a599-4671-8e66-1d154e1ab7ed.png)
 
 - **Upload – Labeled Data:**
-- - Click the **Upload** button, select **Labeled Data** under **Import Data Type**, then click **Select File Upload**.
-  - In your local folder, locate the prepared YOLO-format dataset file (**.zip**) and upload it. This completes the addition of Labeled data.
+    - Click the **Upload** button, select **Labeled Data** under **Import Data Type**, then click **Select File Upload**.
+    - In your local folder, locate the prepared YOLO-format dataset file (**.zip**) and upload it. This completes the addition of Labeled data.
 
 ![img](../img/1_quick_experience/1761810087383-9b615232-8570-4999-8de6-b6529f536309.png)
 
@@ -105,9 +105,9 @@ Local upload can be divided into Unlabeled Data and **Labeled Data**:
 ![img](../img/1_quick_experience/1761812594909-dc649e19-5038-4944-9b37-32a455796c7c.png)
 
 - During model training, you can click the **Learn More** button to view training monitoring data:
-- - **Training Loss (train loss):** The prediction error of the model on the training data. Lower loss indicates the model predicts the training data more accurately.
-  - **Validation Loss (val loss):** The prediction error on the validation data (data not used for training). A consistently decreasing validation loss indicates improved model generalization.
-  - **Validation mAP50 (Val mAP50):** Indicates the accuracy on the validation set where a prediction is considered correct only if the predicted box overlaps with the ground truth box by more than 50%. Higher values indicate better detection accuracy.
+    - **Training Loss (train loss):** The prediction error of the model on the training data. Lower loss indicates the model predicts the training data more accurately.
+    - **Validation Loss (val loss):** The prediction error on the validation data (data not used for training). A consistently decreasing validation loss indicates improved model generalization.
+    - **Validation mAP50 (Val mAP50):** Indicates the accuracy on the validation set where a prediction is considered correct only if the predicted box overlaps with the ground truth box by more than 50%. Higher values indicate better detection accuracy.
 
 ![img](../img/1_quick_experience/1761812295128-cfec2d49-5510-4f58-bdd4-35a19d838f90.png)
 
@@ -120,7 +120,7 @@ Local upload can be divided into Unlabeled Data and **Labeled Data**:
 ![img](../img/1_quick_experience/1761813092181-f924dddc-dbb3-436a-a7b6-ff76bddb54a3.png)
 
 - **Verification Method 2: File**
-- - Change the verification method to "File", click "Upload File", select an image, and open it.
+    - Change the verification method to "File", click "Upload File", select an image, and open it.
 
 ![img](../img/1_quick_experience/1761813385122-a68abaa1-dbb4-4168-a937-fad1994d05c5.png)
 
@@ -131,8 +131,8 @@ Local upload can be divided into Unlabeled Data and **Labeled Data**:
 ## Step 5: Model Deploy
 
 - Once the model validation results meet the requirements, you can proceed to deployment
-- - “Deploy” → Click “Export Model”.
-  - The platform supports exporting the model in ONNX format, making it easy to use in other environments or for secondary development.
+    - “Deploy” → Click “Export Model”.
+    - The platform supports exporting the model in ONNX format, making it easy to use in other environments or for secondary development.
 
 Tip: ONNX is an open model format that can run across various deep learning frameworks and devices. This allows you not only to test on the platform but also to apply the model in real projects.
 
@@ -147,7 +147,7 @@ Although the data is sent to the SIoT platform in real time, it is not stored in
 
 ## Step 6: Model Deployment
 
-**Method 1:** Refer to[4.1.5 Model Deployment](../../../Basic_description/model_deployment/model-deployment.md)
+**Method 1:** Refer to [4.1.5 Model Deployment](../../../Basic_description/model_deployment/model-deployment.md)
 
 * **Applicable to:** Models that support hardware deployment (such as UNIHIKER M10/K10), including image classification, object detection, etc.
 

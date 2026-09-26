@@ -4,11 +4,11 @@ The “Quick Experience” operation steps for **Image Classification** use a �
 
 The process of training an image classification model is divided into five steps:
 
-1. **Create Project** ：Create an image classification project and prepare the dataset.
-2. **Add Categories**：Add classification labels to be recognized (e.g., “Cat” and “Dog”) and collect corresponding image data via the camera or upload from local files.
-3. **Train Model**： Train the image classification model using the platform.
-4. **Model Validation**：Test and verify the model’s performance.
-5. **Model Deploy**： After training, the model can be exported and deployed to hardware devices for local execution and application. Users can also choose to push the model’s recognition results in real time for remote monitoring and management.
+1. **Create Project:** Create an image classification project and prepare the dataset.
+2. **Add Categories:** Add classification labels to be recognized (e.g., “Cat” and “Dog”) and collect corresponding image data via the camera or upload from local files.
+3. **Train Model:**  Train the image classification model using the platform.
+4. **Model Validation:** Test and verify the model’s performance.
+5. **Model Deploy:** After training, the model can be exported and deployed to hardware devices for local execution and application. Users can also choose to push the model’s recognition results in real time for remote monitoring and management.
 
 ### Step 1: Create Project
 
@@ -45,18 +45,18 @@ Once categories are created, image samples can be added using several different 
 > The following sections will focus on **Webcam Capture** and **Local Upload**.
 
 - Sample Addition Method 1: Webcam Capture
-- - Click the webcam and point it at the target. Use the preview window to check whether the captured image is valid, then press “Record” to collect samples. After completing the image sample collection, click “×” to exit the capture screen.
-  - Note: If the desktop does not have a built-in webcam, an external USB webcam can be used.
+    - Click the webcam and point it at the target. Use the preview window to check whether the captured image is valid, then press “Record” to collect samples. After completing the image sample collection, click “×” to exit the capture screen.
+    - Note: If the desktop does not have a built-in webcam, an external USB webcam can be used.
 
 ![img](../img/1_quick_experience/1761723422207-5f5a3fcd-ab25-4005-9b1c-b10925b47c17.png)
 
-- - During sample data collection, you can use the “Settings” button to adjust the webcam’s frame rate (number of images captured per second; higher values result in faster capture).
-  - Note: If the FPS is too high, the captured images will have minimal differences, which is not very useful for training.
+- During sample data collection, you can use the “Settings” button to adjust the webcam’s frame rate (number of images captured per second; higher values result in faster capture).
+    - Note: If the FPS is too high, the captured images will have minimal differences, which is not very useful for training.
 
 ![img](../img/1_quick_experience/1761723658572-c26bfd4b-0d53-4d97-866b-919197fc8720.png)
 
 - Sample Addition Method 2: Upload
-- - Click “Add Category” to create another category (e.g., “Dog”) → Click “Select Files to Upload” to batch import images from your computer.
+    - Click “Add Category” to create another category (e.g., “Dog”) → Click “Select Files to Upload” to batch import images from your computer.
 
 ![img](../img/1_quick_experience/1761723978297-b9b9c3a9-bfaa-4234-bdb0-14bf4b568660.png)
 
@@ -80,7 +80,7 @@ Tips for sample data:
 ![img](../img/1_quick_experience/1761724435262-60044feb-8b12-4a94-9c6b-5e14efb4979a.png)
 
 - During the model training process, you can click the **“Learn More”** button to view training monitoring data:
-- - **Training Loss (train loss):** The prediction error of the model on the training data. Lower loss indicates more accurate predictions on the training set.
+    - **Training Loss (train loss):** The prediction error of the model on the training data. Lower loss indicates more accurate predictions on the training set.
     **Validation Loss (val loss):** The prediction error of the model on the validation data (data not used for training). A continuously decreasing validation loss indicates improving model generalization.
     **Top 1 Accuracy (accuracy top 1):** The proportion of predictions where the model's highest-probability class matches the true label. For example, if the true class is “cat” and the model predicts “cat” as the highest probability, it is considered correct.
     **Top 5 Accuracy (accuracy top 5):** The proportion of predictions where the true label is within the top five highest-probability classes predicted by the model. For example, if the true class is “cat” and the top five predicted classes are “dog, cat, rabbit, bird, cow,” it is considered correct.
@@ -92,12 +92,12 @@ Tips for sample data:
 - After completing model training, you can validate the model performance in the validation area. There are two validation methods: **Webcam** and **File**.
   Tip: Using new images that were not part of the training set provides a more accurate reflection of the model’s real-world performance.
 - Validation Method 1: Webcam
-- - Point the webcam at an image of a cat and check the classification result output.
+    - Point the webcam at an image of a cat and check the classification result output.
 
 ![img](../img/1_quick_experience/1761725078181-3f5b5615-62a2-4fbb-b386-26debe69d221.png)
 
 - Verification Method 2: File
-- - Change the verification method to "File", click "Upload File", select an image, and open it.
+    - Change the verification method to "File", click "Upload File", select an image, and open it.
 
 ![img](../img/1_quick_experience/1761726419270-dfa6f8b1-10f5-441f-8e4d-f62a77f419d5.png)
 
@@ -108,8 +108,8 @@ Tips for sample data:
 ### Step 5: Model Deploy
 
 - Once the model validation results meet the requirements, you can proceed to deployment
-- - “Deploy” → Click “Export Model”.
-  - The platform supports exporting the model in ONNX format, making it easy to use in other environments or for secondary development.
+    - “Deploy” → Click “Export Model”.
+    - The platform supports exporting the model in ONNX format, making it easy to use in other environments or for secondary development.
 - Tip: ONNX is an open model format that can run across various deep learning frameworks and devices. This allows you not only to test on the platform but also to apply the model in real projects.
 
 ![img](../img/1_quick_experience/1761726866033-4ace9fb7-29db-4bd8-8425-29cbeaa894f4.png)
@@ -122,7 +122,7 @@ Although the data is sent to the SIoT platform in real time, it is not stored in
 
 ### Step 6: Model Deployment
 
-**Method 1:** Refer to[4.1.5 Model Deployment](../../../Basic_description/model_deployment/model-deployment.md)
+**Method 1:** Refer to [4.1.5 Model Deployment](../../../Basic_description/model_deployment/model-deployment.md)
 
 
 * **Applicable to:** Models that support hardware deployment (such as UNIHIKER M10/K10), including image classification, object detection, etc.

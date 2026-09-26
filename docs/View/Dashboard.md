@@ -6,7 +6,7 @@ Dashboard is a tool for building graphical user interfaces, allowing users to qu
 
 **Note:** Starting from Mind+ V2.0.5, the Dashboard from Mind+ V1.x has been migrated and made available as a standalone application (Home Screen > UI Design > Dashboard), featuring the same functionality as in V1.x.
 
-> For tutorials, please refer to: [Click Here]()
+
 
 ![image](./Dashboard.assets/pic_1787886959613.png)
 
@@ -31,3 +31,5 @@ Dashboard is a tool for building graphical user interfaces, allowing users to qu
 **Method 3:** Right-click the target component and select "Delete" from the context menu.
 
 ![image](./Dashboard.assets/pic_1787887387318.png)
+
+> More tutorials, see the [Dashboard tutorial](https://mindplus.dfrobot.com.cn/dashboard).

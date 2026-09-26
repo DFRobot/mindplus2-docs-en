@@ -68,8 +68,6 @@ The following sample collection methods are supported:
 
 ![image](./DataSamplingAndSamplingDeviceGuide.assets/pic_1787823234775.png)
 
-![](http://127.0.0.1:8090/AITools/Detailed_explanation/image_classification/img/1_quick_experience/image_07.png)
-
 ## 3. WebRTC Stream Capture
 
 **Working Principle:** HUSKYLENS 2 features a built-in WebRTC video streaming service. It transmits the first-person perspective (FPV) video feed captured by the hardware webcam/camera back to Mind+ in real time via a wired connection (USB network card mode) or wireless link (Wi-Fi LAN) for sampling.
@@ -147,7 +145,7 @@ The following sample collection methods are supported:
 
 ![image](./DataSamplingAndSamplingDeviceGuide.assets/pic_1787883989476.png)
 
-* Next, the webcam list will update with the configured network IP address. Click **[Connect 192.168.0.238]**. Once connected, the collection window will display the real-time FPV feed from HUSKYLENS 2.
+* Next, the webcam list will show the configured network IP address. Click the matching address shown on your HUSKYLENS 2 (for example, **[Connect 192.168.0.238]**). Once connected, the collection window will display the real-time FPV feed from HUSKYLENS 2.
 
 ![image](./DataSamplingAndSamplingDeviceGuide.assets/pic_1787884178700.png)
 

@@ -30,11 +30,11 @@ The posture classification model training process consists of six steps:
 ![img](../img/1_quick_experience/1762414400612-7d0f08b4-c959-4474-b2f0-a7db4648c2a2.png)
 
 - Samples can be added in the following two ways, allowing users to choose flexibly based on actual needs:
-- - **Camera Collection:** Suitable for capturing real-time environmental backgrounds on-site. It is convenient to operate and ensures maximum consistency with the real scene used later for posture data collection.
-  - **Local Upload:** Suitable for importing pre-prepared image materials (such as photos of the environment taken in advance). It supports batch uploading, making it easier to efficiently manage data for fixed scenes.
+    - **Camera Collection:** Suitable for capturing real-time environmental backgrounds on-site. It is convenient to operate and ensures maximum consistency with the real scene used later for posture data collection.
+    - **Local Upload:** Suitable for importing pre-prepared image materials (such as photos of the environment taken in advance). It supports batch uploading, making it easier to efficiently manage data for fixed scenes.
 - By using these two methods, users can flexibly build datasets and prepare for subsequent model training.
-- - **Sample Collection Method 1: Camera Collection**
-- - - Click the **“Camera”** button on the interface, and the system will display a list of available cameras. Select the camera currently available on the device (e.g., built-in laptop camera or external USB camera). If no camera is detected, check the device connection status or driver installation.
+    - **Sample Collection Method 1: Camera Collection**
+        - Click the **“Camera”** button on the interface, and the system will display a list of available cameras. Select the camera currently available on the device (e.g., built-in laptop camera or external USB camera). If no camera is detected, check the device connection status or driver installation.
 
 ![img](../img/1_quick_experience/1762414834559-c4ab85c0-db3b-4405-9d67-892841c2c9cc.png)
 
@@ -45,14 +45,14 @@ If the camera preview does not appear in the capture interface, troubleshoot as 
 - Check whether the camera is occupied by another application (such as a video conferencing tool).
 - Make sure the camera lens is not blocked.
 - Restart **Mind+** and try again.
-- - **Press and hold** the “Hold to Record” button to start capturing the background. During recording, keep the camera steady to avoid image blur or shaking. **Release** the button to stop recording.
-  - The system will automatically extract static images from the recorded video stream as samples. If you need to add more samples, repeat the “press to record – release to stop” operation until the number of samples meets your expectations (**recommended: 100–200 samples**).
+    - **Press and hold** the “Hold to Record” button to start capturing the background. During recording, keep the camera steady to avoid image blur or shaking. **Release** the button to stop recording.
+    - The system will automatically extract static images from the recorded video stream as samples. If you need to add more samples, repeat the “press to record – release to stop” operation until the number of samples meets your expectations (**recommended: 100–200 samples**).
 
 Once this type of sample collection is complete, click **“Return”** to exit the capture interface.
 
 ![img](../img/1_quick_experience/1762484472672-6aca0ad1-c656-4b7d-84b4-a0475021620f.png)
 
-- - - You can individually remove collected samples, remove all samples in bulk and recapture, or download the collected sample data.
+- You can individually remove collected samples, remove all samples in bulk and recapture, or download the collected sample data.
 
 ![img](../img/1_quick_experience/1762484976540-9da1a5f8-ecd5-4144-9033-2c2dae809d97.png)
 
@@ -63,27 +63,27 @@ Once this type of sample collection is complete, click **“Return”** to exit 
 ![img](../img/1_quick_experience/1762485104612-35f2258a-f0e6-4b60-867e-5b680e9c2289.png)
 
 - **Sample Addition Method 2: Local Upload**
-- - Under the target posture category (e.g., “Raise Hand”), click the **“Upload”** button to enter the posture sample upload interface.
-  - Click the **“Select File Upload”** button, and in the local file manager, choose the prepared posture image files (supports single or multiple selections, formats supported: JPG/JPEG/PNG, with each image ≤ 5MB) or the sample ZIP file.
-- - - Click **“Open”** to complete the sample upload. Click **“Return”** to exit the capture interface.
+    - Under the target posture category (e.g., “Raise Hand”), click the **“Upload”** button to enter the posture sample upload interface.
+    - Click the **“Select File Upload”** button, and in the local file manager, choose the prepared posture image files (supports single or multiple selections, formats supported: JPG/JPEG/PNG, with each image ≤ 5MB) or the sample ZIP file.
+        - Click **“Open”** to complete the sample upload. Click **“Return”** to exit the capture interface.
 
 ![img](../img/1_quick_experience/1762485716590-65f22589-d670-41a5-b6c9-e028bdfa1b4b.png)
 
 You can continue uploading new samples or supplement them via camera capture.
 
-- - Click **“Add a Class”** to create another category (e.g., “Sit Upright”) and repeat the above sample addition steps until all categories have been added.
+- Click **“Add a Class”** to create another category (e.g., “Sit Upright”) and repeat the above sample addition steps until all categories have been added.
 
 ![img](../img/1_quick_experience/1762486548358-92cc2aed-bced-4bff-8804-f0d42828b16d.png)
 
 Tips for Data Samples:
 
-- - - - Prepare 100–200 diverse sample images for each category, keeping the number of samples balanced across categories.
-      - Use simple names for categories; avoid overly complex symbols or long names.
+- Prepare 100–200 diverse sample images for each category, keeping the number of samples balanced across categories.
+- Use simple names for categories; avoid overly complex symbols or long names.
 
 ### Step 4: Train Model
 
 - **Advanced Parameter Settings**
-- - Before training the model, click **“Advanced”** to configure the training parameters. You can set the following three core parameters:
+    - Before training the model, click **“Advanced”** to configure the training parameters. You can set the following three core parameters:
 
 | Parameter     | Description                                                                                                     | Notes                                                                                                                                                                                                   | Recommended Settings                                                                                                                                                                 |
 | ------------- | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -92,20 +92,20 @@ Tips for Data Samples:
 | Learning Rate | Controls the step size of each parameter update; determines how much weights are adjusted based on error.       | Determines training convergence speed and final accuracy: too high causes unstable training; too low slows training (more epochs required).                                                             | • Initial recommendation: 0.001• If loss decreases slowly: increase to 0.005• If loss fluctuates heavily: decrease to 0.0001                                                      |
 
 - **Start Model Training**
-- - After setting the training parameters, click **“Train Model”** to begin training. (If no parameters are set, the system will use the default settings.)
+    - After setting the training parameters, click **“Train Model”** to begin training. (If no parameters are set, the system will use the default settings.)
 
 ![img](../img/1_quick_experience/1762487299759-e72d9e9d-fae8-41c4-808d-853bbd5f2b8a.png)
 
-- - During training, make sure to keep this tab open. Switching pages or closing the browser may interrupt the training process.
+- During training, make sure to keep this tab open. Switching pages or closing the browser may interrupt the training process.
 
 ![img](../img/1_quick_experience/1762487351316-33562be2-8e15-4876-a44e-c699620d4968.png)
 
-- - **raining Process Monitoring**
-  - During model training, you can click the **“Learn More”** button to view relevant training monitoring data:
-- - - **Accuracy per class**: Indicates the proportion of samples in each posture category (e.g., Background, Standing, Hand-Raising, Sitting Upright) for which the model’s predictions match the actual labels.
-    - **Confusion matrix**: A matrix showing the prediction performance of the model across all posture categories, providing a clear view of how actual posture labels correspond to predicted labels.
-    - **Accuracy per epoch**: Refers to the proportion of correct predictions over all samples during one complete pass (epoch) of the training dataset.
-    - **Loss per epoch**: Quantifies the error between the model’s predicted values and the true values for that epoch.
+- **Training Process Monitoring**
+    - During model training, you can click the **“Learn More”** button to view relevant training monitoring data:
+        - **Accuracy per class**: Indicates the proportion of samples in each posture category (e.g., Background, Standing, Hand-Raising, Sitting Upright) for which the model’s predictions match the actual labels.
+        - **Confusion matrix**: A matrix showing the prediction performance of the model across all posture categories, providing a clear view of how actual posture labels correspond to predicted labels.
+        - **Accuracy per epoch**: Refers to the proportion of correct predictions over all samples during one complete pass (epoch) of the training dataset.
+        - **Loss per epoch**: Quantifies the error between the model’s predicted values and the true values for that epoch.
 
 ![img](../img/1_quick_experience/1762493145137-9187c7ef-9f3f-454b-acc6-52be11684fec.png)
 
@@ -114,24 +114,24 @@ Tips for Data Samples:
 - After the model training is completed, you can validate the model in the **Model Validation** area. There are two validation methods: **Camera** and **File**.
 - **Tip:** Using new images that were not included in the training set for testing will better reflect the model’s actual performance.
 - Validation Method 1: Camera
-- - Ask the subject to maintain the target posture. The system will capture posture images in real time, automatically extract features, and predict the category. The **Output** area on the interface will display the real-time classification results.
+    - Ask the subject to maintain the target posture. The system will capture posture images in real time, automatically extract features, and predict the category. The **Output** area on the interface will display the real-time classification results.
 
 ![img](../img/1_quick_experience/1762488342612-5502bc4d-3c2f-4e4f-bb90-2a889a89c994.png)
 
 - Validation Method 2: File
-- - Switch the validation method to “File”, click “Upload File”, select an image, and open it.
+    - Switch the validation method to “File”, click “Upload File”, select an image, and open it.
 
 ![img](../img/1_quick_experience/1762492334037-ed00700d-5a2c-4f9f-9714-ff45a2706138.png)
 
-- - After the image is successfully uploaded, the pose classification result of the image will be displayed.
+- After the image is successfully uploaded, the pose classification result of the image will be displayed.
 
 ![img](../img/1_quick_experience/1762492633131-aea3e0b1-88bc-45d7-ab23-80f5b87c0e0b.png)
 
 ### Step 6: Model Deploy
 
 - Once the model validation results meet the requirements, you can proceed to the deployment stage.
-- - Go to **“Deploy”** → Click **“Export Model”**.
-  - The platform supports exporting the model in **ZIP format**, making it easy to use in other environments or for secondary development.
+    - Go to **“Deploy”** → Click **“Export Model”**.
+    - The platform supports exporting the model in **ZIP format**, making it easy to use in other environments or for secondary development.
 
 ![img](../img/1_quick_experience/1762492856271-2674c507-5b47-4556-bb95-6b6b0370b6a2.png)
 
@@ -142,7 +142,7 @@ Tips for Data Samples:
 
 ### Step 7: Model Deployment
 
-**Method 1:** Refer to[4.1.5 Model Deployment](../../../Basic_description/model_deployment/model-deployment.md)
+**Method 1:** Refer to [4.1.5 Model Deployment](../../../Basic_description/model_deployment/model-deployment.md)
 
 * **Applicable to:** Models that support hardware deployment (such as UNIHIKER M10/K10), including image classification, object detection, etc.
 

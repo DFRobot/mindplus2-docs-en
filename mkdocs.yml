@@ -265,17 +265,17 @@ nav:
               - 4.1.5 Model Deploy: AITools/Basic_description/model_deployment/model-deployment.md
               - 4.1.6 Real-time Result Push: AITools/Basic_description/real_time_push/real-time-push.md
           - 4.2 Detailed Description:
-              - 4.2.1 【Image Classification】 Quick Experience: AITools/Detailed_explanation/image_classification/quick_experience/quick-experience.md
-              - 【Image Classification】 Advanced Mode: AITools/Detailed_explanation/image_classification/professional_mode/professional-mode.md
-              - 4.2.2 【Object Detection】 Quick Experience: AITools/Detailed_explanation/object_detection/quick_experience/quick-experience.md
-              - 【Object Detection】 Advanced Mode: AITools/Detailed_explanation/object_detection/professional_mode/professional-mode.md
-              - 4.2.3 【Instance Segmentation】 Quick Experience: AITools/Detailed_explanation/instance_segmentation/quick_experience/quick-experience.md
-              - 【Instance Segmentation】 Advanced Mode: AITools/Detailed_explanation/instance_segmentation/professional_mode/professional-mode.md
-              - 4.2.4 【Temporal Pattern Recognition】 Quick Experience: AITools/Detailed_explanation/time_series_recognition/quick_experience/quick-experience.md
-              - 【Temporal Pattern Recognition】 Advanced Mode: AITools/Detailed_explanation/time_series_recognition/professional_mode/professional-mode.md
-              - 4.2.5 【Speech Classification】 Quick Experience: AITools/Detailed_explanation/speech_classification/quick_experience/quick-experience.md
-              - 4.2.6 【Text Classification】 Quick Experience: AITools/Detailed_explanation/text_classification/quick_experience/quick-experience.md
-              - 4.2.7 【Pose Classification】 Quick Experience: AITools/Detailed_explanation/pose_classification/quick_experience/quick-experience.md
+              - 4.2.1 Image Classification - Quick Experience: AITools/Detailed_explanation/image_classification/quick_experience/quick-experience.md
+              - Image Classification - Advanced Mode: AITools/Detailed_explanation/image_classification/professional_mode/professional-mode.md
+              - 4.2.2 Object Detection - Quick Experience: AITools/Detailed_explanation/object_detection/quick_experience/quick-experience.md
+              - Object Detection - Advanced Mode: AITools/Detailed_explanation/object_detection/professional_mode/professional-mode.md
+              - 4.2.3 Instance Segmentation - Quick Experience: AITools/Detailed_explanation/instance_segmentation/quick_experience/quick-experience.md
+              - Instance Segmentation - Advanced Mode: AITools/Detailed_explanation/instance_segmentation/professional_mode/professional-mode.md
+              - 4.2.4 Temporal Pattern Recognition - Quick Experience: AITools/Detailed_explanation/time_series_recognition/quick_experience/quick-experience.md
+              - Temporal Pattern Recognition - Advanced Mode: AITools/Detailed_explanation/time_series_recognition/professional_mode/professional-mode.md
+              - 4.2.5 Speech Classification - Quick Experience: AITools/Detailed_explanation/speech_classification/quick_experience/quick-experience.md
+              - 4.2.6 Text Classification - Quick Experience: AITools/Detailed_explanation/text_classification/quick_experience/quick-experience.md
+              - 4.2.7 Pose Classification - Quick Experience: AITools/Detailed_explanation/pose_classification/quick_experience/quick-experience.md
       - 5.View:
           - 5.1 Dashboard: View/Dashboard.md
   - FAQ:

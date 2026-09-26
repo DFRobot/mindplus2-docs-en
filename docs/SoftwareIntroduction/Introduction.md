@@ -5,7 +5,7 @@ This page is the home screen (Project Selection Home) upon launching Mind+, serv
 ![image](./Introduction.assets/pic_1787732597845.png)
 
 !!! tip "Tip"
-This document is for Mind+ V2. If you are using Mind+ V1.x, please [click here](https://mindplus.dfrobot.com.cn/catalog) to view the relevant documentation.
+    This document is for Mind+ V2. If you are using Mind+ V1.x, please [click here](https://mindplus.dfrobot.com/catalog) to view the relevant documentation.
 
 ## **1. Left Navigation Bar**
 
