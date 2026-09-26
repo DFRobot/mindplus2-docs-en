@@ -1,1 +1,2 @@
-Under development, stay tuned.
+> [!TIP] TIP
+> The macOS version has been released.
