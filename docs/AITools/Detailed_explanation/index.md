@@ -59,6 +59,12 @@
 
 - 📖 [快速体验](pose_classification/quick_experience/quick-experience.md)
 
+#### 8. Autonomous Driving
+
+- 📖 [Quick Experience](autonomous_driving/quick_experience/quick-experience.md)
+
+- 🔧 [Advanced Mode](autonomous_driving/professional_mode/professional-mode.md)
+
 
 ## 📋 前置准备
 
